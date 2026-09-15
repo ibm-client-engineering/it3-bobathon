@@ -203,11 +203,8 @@ using the built-in Source Control view — no terminal needed.
 3. A text field appears at the top of the screen. Paste the lab repository URL:
 
    ```
-   <LABS_REPO_URL>
+   https://github.com/ibm-client-engineering/it3-bobathon
    ```
-
-   > ⚠️ **Placeholder:** The labs repository URL will be shared with participants before
-   > the event. Use the URL provided by your IBM facilitator.
 
    Press **Enter**
 
@@ -244,7 +241,7 @@ using the built-in Source Control view — no terminal needed.
 | Browser doesn't open when clicking Log in | Look for a browser window behind the Bob window, or open a browser manually and try signing in again |
 | Bob asks for credentials you don't recognize | Use your IBMid work email and password — the same one you registered in Step 1 |
 | Can't find the terminal | Click **Activities** (top-left), then click the terminal icon in the dock at the bottom |
-| "Clone Repository" shows an error or "repository not found" | Confirm the URL with your IBM facilitator — the placeholder URL will be replaced before the event |
+| "Clone Repository" shows an error or "repository not found" | Confirm you pasted the full URL: `https://github.com/ibm-client-engineering/it3-bobathon` — then try again |
 
 **Still stuck?** Come to the **office hours session on September 21** or reach out to your
 IBM event contact before the day of the workshop. Issues are much easier to resolve before
