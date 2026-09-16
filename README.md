@@ -14,7 +14,7 @@ to get started and get the most out of the 90-minute workshop.
 | **Locations** | Charlotte, NC · Atlanta, GA |
 | **Duration** | 90 minutes |
 | **Format** | Hands-on lab — work at your own pace |
-| **IBM Contact** | Madison Ramsey — madison.ramsey@ibm.com |
+| **IBM Contact** | Melissa Hadley — melissa.hadley@ibm.com |
 
 ---
 
@@ -35,6 +35,8 @@ or email madison.ramsey@ibm.com.
 
 ### ⚙️ Before the event — complete your setup
 
+> 📁 **The lab files live in a Git repository** — your setup guide walks you through cloning it in Step 5 of [`resources/prereq-setup.md`](resources/prereq-setup.md).
+
 **Before arriving on September 24, follow the steps in [`resources/prereq-setup.md`](resources/prereq-setup.md):**
 
 1. Verify or create your **IBMid** (your IBM account) using your work email address
@@ -52,6 +54,8 @@ This workshop includes **three labs**. Everyone begins with **Lab 1**, then cont
 
 > 💬 **All labs are driven from the Bob chat interface.** You'll type prompts, review responses, and approve actions directly in the Bob chat panel — you won't need to run scripts or use the terminal yourself. To open the chat panel if it isn't already visible, click the **Bob icon** in the sidebar, or use the keyboard shortcut **`⌥ ⌘ B`** (Mac) / **`Ctrl + Alt + B`** (Windows). The panel has three parts: the conversation history at the top, a text input at the bottom where you type your prompts, and a Send button (or press **Enter**) to submit.
 
+> 💡 **Not sure how to open a folder in Bob or what "Open in Bob" means?** See Step 5 of your [pre-event setup guide](resources/prereq-setup.md) for a step-by-step walkthrough.
+
 1. Log in to your TechZone VM (see [`resources/prereq-setup.md`](resources/prereq-setup.md) if you haven't yet)
 2. Open Bob and ensure the chat panel is visible (see note above)
 3. Start with **Lab 1 — Personal Productivity** (`Lab 1 - Productivity/instructions.md`) — this lab is for everyone
@@ -60,6 +64,8 @@ This workshop includes **three labs**. Everyone begins with **Lab 1**, then cont
    - **Lab 3 — Developer Efficiency** (`Lab 3 - Developer Efficiency/instructions.md`) — ideal for developers, data engineers, and technical practitioners who work in code daily
 
 Work at your own pace. You don't need to complete every exercise in each lab — focus on what's most relevant to you.
+
+> ✅ **Start here →** Open `Lab 1 - Productivity/instructions.md` in the Explorer panel on the left, then open a new Bob chat. That's your starting point for the workshop.
 
 ---
 
@@ -111,7 +117,7 @@ Checkpoints 6 and 7 have no finish line — keep going if you have time.
 
 - **Ask broad questions first.** Bob understands your entire codebase — not just the current file.
 - **Be direct.** "Find the bug in normalize_amounts" works better than "help me with the code."
-- **Review before applying.** Bob shows you diffs — always read what's changing before accepting.
+- **Review before applying.** Bob shows you diffs (a side-by-side view of what Bob is about to change) — always read what's changing before accepting.
 - **Use follow-up prompts.** If Bob's first answer isn't quite right, correct it in the same conversation.
 - **Watch for mode switching.** In complex tasks, Bob shifts between Ask, Plan, and Agent modes automatically.
 
@@ -121,6 +127,8 @@ By default, Bob asks for your confirmation before taking any action that affects
 
 **How to approve during the lab:**
 When Bob proposes an action (reading a file, editing code, running a command), **Approve** and **Reject** buttons appear above the chat input. Click **Approve** to proceed or **Reject** to cancel.
+
+> ⚠️ **A note on risk:** The permissions below vary significantly in what they allow. **Read** is low-impact — Bob looks at files but changes nothing. **Edit** and **Execute** are high-impact — Bob can modify files and run commands on your machine. In this workshop you're in a pre-provisioned TechZone VM, which is a safe sandbox. On your own laptop, enable **Edit** and **Execute** only when you understand what Bob is about to do.
 
 **Auto-approve — available permissions:**
 
@@ -163,7 +171,7 @@ To enable auto-approve: hover over the **Auto-Approve toolbar** above the chat i
 
 3. **Keep exploring** — still have time? Ask Bob anything you're curious about, revisit a checkpoint you didn't finish, or try a prompt on something from your own work. There's no better time to experiment than right now with a facilitator nearby.
 
-4. **Questions?** Reach out to Madison Ramsey — madison.ramsey@ibm.com
+4. **Questions?** Reach out to Melissa Hadley — melissa.hadley@ibm.com
 
 ---
 
@@ -182,5 +190,5 @@ To enable auto-approve: hover over the **Auto-Approve toolbar** above the chat i
 
 ---
 
-*IBM Technology Sales · madison.ramsey@ibm.com*  
+*IBM Technology Sales · melissa.hadley@ibm.com*
 *Made with Bob · Opportunity: 006gR000004t4ezQAA*
