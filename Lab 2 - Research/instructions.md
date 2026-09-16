@@ -14,21 +14,15 @@ By the end of this lab, you will be able to:
 
 ## 📋 Setup
 
-> 💬 **Open the Bob chat panel before you start.** Click the Bob icon in the left sidebar, or press `⌥ ⌘ B` (Mac) / `Ctrl + Alt + B` (Windows). You should see a text input at the bottom — that's where you'll type all your prompts throughout this lab.
-
-> 💡 **Use one conversation for this entire lab — and keep it open until you claim your badge.**
-> Start a new Bob chat (or continue from Lab 1 if your facilitator advises it) and keep it open through all three exercises. Bob's ability to cross-reference multiple sources and remember your research question depends on holding the full context in one conversation. If you start a new chat, that context is gone.
-
-> 🏅 **Important — this conversation is your badge evidence.** When you finish the lab and claim your Bobathon badge, Bob's Badge Issuer Lite mode stays in this same chat and reads your conversation history to verify what you completed. **Do not close or start a new chat before claiming your badge.** The richer your conversation — the more you explored, asked, and tried — the smoother and faster that evaluation will be.
-
-> ⚠️ **Do not add confidential, sensitive, or customer data to any lab folder.** Only use content you're comfortable sharing in a shared lab environment.
-
 Before starting, ensure you have:
 - [ ] Completed Lab 1
-- [ ] Bob running with the chat panel open (see above)
+- [ ] Bob running in your IDE or chat interface
 - [ ] Access to the sample data in `Lab 2 - Research/sample-data/` (provided in this lab folder)
 
-> **🔄 Optional — use your own content instead of the samples.** Each exercise below uses a fictional research brief and sample source documents so the lab works out of the box. You can substitute any real documents, internal pages, or reference materials of your own at any point, either by pasting the content directly into the chat or by pointing Bob to your own files. Skipping this is completely fine — the provided samples work just as well.
+> **🔄 Use your own content instead of the samples.** Each exercise below uses a fictional
+> research brief and sample source documents so the lab works out of the box. You can substitute
+> any real documents, internal pages, or reference materials of your own at any point, either
+> by pasting the content directly into the chat or by pointing Bob to your own files.
 
 ## 🔨 Exercises
 
@@ -36,26 +30,25 @@ Before starting, ensure you have:
 
 ### Exercise 1: Getting Up to Speed on Unfamiliar Territory (10 minutes)
 
-**Scenario:** You've been pulled into a new topic area and need to get oriented quickly before a meeting. Instead of reading every document end-to-end, have Bob extract what matters and explain it to you.
+**Scenario:** You've been pulled into a new topic area and need to get oriented quickly before
+a meeting. Instead of reading every document end-to-end, have Bob extract what matters and
+explain it to you.
 
-> **Use your own content (optional):** Swap in any document, policy, internal wiki page, or domain reference you'd normally spend time reading end-to-end.
+> **Use your own content (optional):** Swap in any document, policy, internal wiki page, or
+> domain reference you'd normally spend time reading end-to-end.
 
-**Step 0 — Read the research brief first:** Open `sample-data/research-brief.md` and read it so you understand the question you're trying to answer before exploring the source documents.
+**Tasks:**
+1. Point Bob at `Lab 2 - Research/sample-data/source-a.md` and ask it to give you a plain-language overview
+2. Ask a follow-up question to dig into a specific area
+3. Ask Bob what you'd most need to know before a meeting on this topic
 
-**Step 1:** In the Bob chat panel, type:
+**Example Prompts:**
 ```
 Read sample-data/source-a.md and give me a plain-language overview. What is this about,
 what are the key points, and what would I need to understand before a meeting on this topic?
 ```
-
-**Step 2:** Ask a follow-up to go deeper:
 ```
 What's the most important thing I should know about [specific aspect] from what you just read?
-```
-
-**Step 3:** In the Bob chat panel, ask:
-```
-Based on what you've read, what are the three things I most need to know before a meeting on this topic?
 ```
 
 **Expected Outcome:**
@@ -64,29 +57,33 @@ Based on what you've read, what are the three things I most need to know before 
 - You have a short list of things to know before a meeting on the topic
 
 **💡 Real-time Value Indicator:**
-Getting up to speed on a new topic typically means reading 10–30 pages before you feel confident. Bob gets you to the key points in under a minute, leaving the reading time for the areas that actually need your judgment.
-
-> 🧭 **Want to explore?** If you have a few extra minutes:
-> - "What if I asked Bob the most controversial claim in this document?" → `What's the most controversial or contested claim in this document?`
-> - "What if I asked Bob to explain it like I'm new to this field?" → `Explain the key points from source-a.md as if I've never worked in this industry before.`
-> - "What if I brought in something from my own work?" → Paste or point Bob at a real document you're currently working with: `Give me a plain-language overview and tell me what I most need to understand.`
+Getting up to speed on a new topic typically means reading 10–30 pages before you feel
+confident. Bob gets you to the key points in under a minute, leaving the reading time for
+the areas that actually need your judgment.
 
 ---
 
 ### Exercise 2: Researching Across Multiple Sources (10 minutes)
 
-**Scenario:** You need to answer a specific business or technical question, but the answer is spread across several documents. Instead of reading each one and cross-referencing manually, have Bob do the synthesis.
+**Scenario:** You need to answer a specific business or technical question, but the answer
+is spread across several documents. Instead of reading each one and cross-referencing manually,
+have Bob do the synthesis.
 
-> **Use your own content (optional):** Swap in any set of real documents, reports, or reference pages that you'd normally cross-reference manually to answer a question.
+> **Use your own content (optional):** Swap in any set of real documents, reports, or reference
+> pages that you'd normally cross-reference manually to answer a question.
 
-**Step 1:** In the Bob chat panel, give Bob the research question and all three sources at once:
+**Tasks:**
+1. Share your research question with Bob (use the sample brief, or bring your own)
+2. Point Bob at `sample-data/source-a.md`, `sample-data/source-b.md`, and
+   `sample-data/source-c.md` and ask it to answer your question from all three sources
+3. Ask Bob to flag where sources agree, where they differ, and where there are gaps
+
+**Example Prompts:**
 ```
 Read sample-data/research-brief.md to understand the question I'm trying to answer.
 Then read source-a.md, source-b.md, and source-c.md and answer the question using
 all three sources.
 ```
-
-**Step 2:** Ask Bob to surface agreements, contradictions, and gaps:
 ```
 Where do the three sources agree? Where do they differ or contradict each other?
 What's missing that I'd need to answer this fully?
@@ -98,22 +95,25 @@ What's missing that I'd need to answer this fully?
 - Gaps are flagged explicitly rather than papered over
 
 **💡 Real-time Value Indicator:**
-Manually cross-referencing three documents to answer one targeted question typically takes 30–60 minutes of reading and note-taking. Bob does it in seconds and surfaces contradictions you'd likely have missed.
-
-> 🧭 **Want to explore?** If you have a few extra minutes:
-> - "What if I asked Bob to argue the opposite side?" → `Based on the sources, argue the strongest case against the conclusion we just reached.`
-> - "What if I asked Bob what's the most critical unknown?" → `What is the most important piece of information missing from these three sources that would change the recommendation?`
-> - "What if I asked Bob to flag bias in the sources?" → `Are any of these sources one-sided or missing a perspective? Flag anything that reads like advocacy rather than balanced analysis.`
+Manually cross-referencing three documents to answer one targeted question typically takes
+30–60 minutes of reading and note-taking. Bob does it in seconds and surfaces contradictions
+you'd likely have missed.
 
 ---
 
 ### Exercise 3: Synthesizing Into a Deliverable (10 minutes)
 
-**Scenario:** You have your research. Now you need to turn it into something you can actually share — a briefing, a recommendation, a comparison table, or a decision note.
+**Scenario:** You have your research. Now you need to turn it into something you can actually
+share, a briefing, a recommendation, a comparison table, or a decision note.
 
-> **Use your own content (optional):** Bring your own research findings, notes, or source documents from a real topic you're working on. Describe the deliverable format you need and Bob will produce it.
+> **Use your own content (optional):** Bring your own research findings, notes, or source
+> documents from a real topic you're working on. Describe the deliverable format you need
+> and Bob will produce it.
 
-**Step 1:** In the Bob chat panel, ask Bob to produce a deliverable — pick one format or bring your own:
+**Tasks:**
+1. Ask Bob to produce a short written deliverable based on the research from Exercise 2
+2. Specify the audience and format (pick one from the examples below or choose your own)
+3. Give Bob one round of feedback and ask it to revise
 
 **Example Prompts — choose one or bring your own:**
 
@@ -135,7 +135,7 @@ Write a short decision note (half a page) recommending an approach based on the 
 State the recommendation first, then the supporting evidence, then any risks or caveats.
 ```
 
-**Step 2:** Give Bob one round of feedback:
+**Follow-up revision prompt:**
 ```
 Good, but make it shorter. Cut anything that's just restating what the sources said and
 keep only what helps the reader decide or act.
@@ -147,25 +147,9 @@ keep only what helps the reader decide or act.
 - One round of feedback is enough to get to something ready to share
 
 **💡 Real-time Value Indicator:**
-Turning research notes into a polished deliverable typically takes 45–90 minutes of drafting and editing. Bob produces a structured first draft in seconds, leaving you to review and refine rather than write from scratch.
-
-> 🧭 **Want to explore?** If you have a few extra minutes:
-> - "What if I changed the audience entirely?" → `Rewrite this briefing for an audience of front-line managers instead of senior leaders. Change what you emphasize.`
-> - "What if I asked Bob to find the weakest part of the recommendation?" → `What's the most likely objection a skeptical reader would raise to this recommendation, and how would you respond to it?`
-> - "What if I pushed Bob to make it shorter?" → `Cut this to half the length. Keep only what changes the reader's thinking or action.`
-
----
-
-## 🧭 Keep Exploring
-
-Still have time? The best research conversations go beyond the brief. Try one of these:
-
-- **Bring real work:** Swap in a document or question from something you're actually working on right now.
-- **Ask Bob what it would prioritize:** `If you had to pick one finding from this research to act on immediately, what would it be and why?`
-- **Test the limits:** Ask Bob something the sources don't cover and see how it handles the gap.
-- **Push the deliverable further:** Ask Bob to produce a second format — if you made a briefing, now ask for a comparison table, or vice versa.
-
-> 💡 The sample prompts throughout this lab are a starting point. Feel free to ask Bob anything you're curious about — bring a real question from your work, push back on Bob's answers, or ask it to explain its reasoning. If something surprises you, ask a facilitator.
+Turning research notes into a polished deliverable typically takes 45–90 minutes of
+drafting and editing. Bob produces a structured first draft in seconds, leaving you to
+review and refine rather than write from scratch.
 
 ---
 

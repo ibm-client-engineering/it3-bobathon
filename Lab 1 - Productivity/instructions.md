@@ -15,25 +15,20 @@ By the end of this lab, you will be able to:
 
 ## 📋 Setup
 
-> 💬 **Open the Bob chat panel before you start.** Click the Bob icon in the left sidebar, or press `⌥ ⌘ B` (Mac) / `Ctrl + Alt + B` (Windows). You should see a text input at the bottom — that's where you'll type all your prompts throughout this lab.
-
-> 💡 **Use one conversation for the entire lab — and keep it open until you claim your badge.**
-> Start a new Bob chat now and keep it open through all three exercises. Bob holds your to-do list, your action items, and the full context of what you've done — but only within the same conversation. If you start a new chat mid-lab, that context is gone and exercises that build on earlier ones won't work as intended.
-
-> 🏅 **Important — this conversation is your badge evidence.** When you finish the lab and claim your Bobathon badge, Bob's Badge Issuer Lite mode stays in this same chat and reads your conversation history to verify what you completed. **Do not close or start a new chat before claiming your badge.** The richer your conversation — the more you explored, asked, and tried — the smoother and faster that evaluation will be.
-
-> ⚠️ **Do not add confidential, sensitive, or customer data to any lab folder.** Only use content you're comfortable sharing in a shared lab environment.
-
-> 📌 **Tip:** Keep this instructions file open in a pinned tab so you can switch back to the Bob chat easily. In Bob, right-click the tab and select **Keep Open** (or **Pin Tab**) to prevent it from closing automatically.
-
 Before starting, ensure you have:
-- [ ] Bob running with the chat panel open (see above)
+- [ ] Bob running in your IDE or chat interface
 - [ ] Access to the sample data in `Lab 1 - Productivity/sample-data/` (provided in this lab folder)
-- [ ] **Optional:** Tone reference material saved in `Lab 1 - Productivity/sample-data/tone-reference-emails/` so Bob can match your writing style when drafting email in Exercise 3. See that folder's `README.md` for the three options available — including a zero-effort option that requires no personal content. If you skip this, Bob will use a neutral professional tone instead.
+- [ ] **Optional:** 3–6 of your own past emails saved in `Lab 1 - Productivity/sample-data/tone-reference-emails/`; see that folder's `README.md` for instructions. If you skip this, Bob will use a neutral professional tone instead.
 
-> **💡 Custom skills power this lab.** Exercises 2 and 3 are backed by two custom Bob skills (`action-item-sync` and `tone-matched-drafting`). Bob applies them automatically based on what you ask it to do, no slash command needed.
 
-> **🔄 Use your own content instead of the samples.** Every exercise below uses sample files (`meeting-notes.md`, `email-chain.md`, `tone-reference-emails/`) so the lab works out of the box. If you'd rather use the real thing, just give Bob your own meeting transcript, email chain, or past emails instead, either by pasting the content directly into the chat or by pointing Bob to your own file(s) in place of the sample path. Nothing else about the exercise changes.
+> **💡 Custom skills power this lab.** Exercises 2 and 3 are backed by two custom Bob skills
+> (`action-item-sync` and `tone-matched-drafting`). Bob applies them automatically based on what you ask it to do, no slash command needed.
+
+> **🔄 Use your own content instead of the samples.** Every exercise below uses sample files
+> (`meeting-notes.md`, `email-chain.md`, `tone-reference-emails/`) so the lab works out of the
+> box. If you'd rather use the real thing, just give Bob your own meeting transcript, email chain,
+> or past emails instead, either by pasting the content directly into the chat or by pointing Bob
+> to your own file(s) in place of the sample path. Nothing else about the exercise changes.
 
 ## 🔨 Exercises
 
@@ -41,15 +36,12 @@ Before starting, ensure you have:
 
 **Scenario:** You have a handful of tasks on your mind. Instead of writing them down yourself, have Bob track them for you, and keep the list updated as things change.
 
-> 🔧 **When Bob proposes an action**, Approve and Reject buttons appear above the chat input — click **Approve** to continue. If you only approve once, you'll be prompted again for each subsequent action. To approve all actions automatically, enable **Read**, **Edit**, and **Execute** in the Auto-Approve toolbar above the chat input (see the README for details).
+**Tasks:**
+1. Tell Bob about 3–4 things you need to get done (real ones, or use the examples below)
+2. Ask Bob to mark one as complete
+3. Ask Bob to add a new task and reprioritize the list
 
-**Step 1:** In the Bob chat panel on the right side of the screen, start with your own real tasks if you have some — it makes the value obvious immediately. Type something like:
-
-```
-I need to get a few things done today: [list your own tasks here]. Please track these for me as a to-do list.
-```
-
-**If you'd rather use examples, try this instead:**
+**Example Prompt:**
 ```
 I need to get a few things done today:
 - Send the budget summary to my manager
@@ -59,30 +51,18 @@ I need to get a few things done today:
 Please track these for me as a to-do list.
 ```
 
-**Step 2:** In the Bob chat panel, mark one item complete:
+**Follow-up prompts to try:**
 ```
 I finished the budget summary; mark that one done.
 ```
-
-**Step 3:** Add a new task and reprioritize:
 ```
 Add "review Q3 numbers before Thursday's meeting" and make it the top priority.
-```
-
-**Step 4:** Ask Bob to show you the updated list:
-```
-Show me my current to-do list.
 ```
 
 **Expected Outcome:**
 - Bob maintains a live, structured task list throughout the conversation
 - You can update, complete, and reprioritize items just by talking to Bob
 - You never had to open a separate notes app or spreadsheet
-
-> 🧭 **Want to explore?** If you have a few extra minutes, try one of these:
-> - "What if Bob grouped my tasks by type of work instead of priority?" → `Reorganize my to-do list grouped by category instead of priority order.`
-> - "What if I asked Bob to draft a calendar hold for one of my tasks?" → `Based on my to-do list, draft a calendar hold email for the Thursday planning session.`
-> - "What if I asked Bob how it's tracking the list?" → `How are you keeping track of my to-do list — are you saving it somewhere or holding it in the conversation?`
 
 **💡 Real-time Value Indicator:**
 This is the same underlying capability Bob uses to track its own multi-step work, applied here to *your* day. No formatting, no separate app, no manual reordering.
@@ -93,26 +73,24 @@ This is the same underlying capability Bob uses to track its own multi-step work
 
 **Scenario:** Action items are scattered across your meeting notes and a follow-up email thread. Instead of re-reading both and writing your own list, have Bob do the extraction, and merge the results into the to-do list from Exercise 1.
 
-> **Use your own content (optional):** You can swap in your own real meeting notes and/or email thread instead of the samples below (paste them in, or point Bob to your own file). Using the provided samples works just as well if you'd rather not.
+> **Use your own content (optional):** You can swap in your own real meeting notes and/or email
+> thread instead of the samples below (paste them in, or point Bob to your own file).
+> Using the provided samples works just as well if you'd rather not.
 
-**Step 1:** In the Bob chat panel, type the following (you can use the exact path or describe the file — Bob will find it either way):
+**Tasks:**
+1. Point Bob at `sample-data/meeting-notes.md` (or your own meeting notes) and ask it to pull out action items, owners, and deadlines
+2. Point Bob at `sample-data/email-chain.md` (or your own email thread) and do the same
+3. Ask Bob to merge both sets of action items into your running to-do list, flagging anything that's just for you
+
+**Example Prompt:**
 ```
 Read sample-data/meeting-notes.md and list the action items, who owns each one, and any deadlines mentioned.
 ```
-
-**Step 2:** In the Bob chat panel, do the same for the email thread:
 ```
 Now read sample-data/email-chain.md and do the same thing.
 ```
-
-**Step 3:** Merge both sets into your running to-do list:
 ```
 Merge the action items from both into my to-do list from before. Only include the ones that are actually mine to do, and flag anything with an unclear owner.
-```
-
-**Step 4:** Ask Bob to show you the full updated list:
-```
-Show me my complete to-do list as it stands right now.
 ```
 
 **Expected Outcome:**
@@ -123,48 +101,21 @@ Show me my complete to-do list as it stands right now.
 **💡 Real-time Value Indicator:**
 Manually re-reading meeting notes and an email thread to build a task list typically takes 10–15 minutes and things get missed. Bob does the extraction in seconds and catches items you'd likely have missed on a first read.
 
-> 💡 **Under the Hood:** This exercise uses the `action-item-sync` skill — a custom Bob skill that knows how to extract owners, deadlines, and action items from unstructured text and merge them without duplicating. Bob applied it automatically based on what you asked. Curious how custom skills work? See [`resources/bob-differentiators.md`](../resources/bob-differentiators.md).
-
-> 🧭 **Want to explore?** If you have a few extra minutes:
-> - "What if Bob summarized my whole day in one sentence?" → `Based on the meeting notes and email thread, summarize the single most important thing I need to do today.`
-> - "What if I asked Bob what questions I should still be asking?" → `Based on the email thread, what questions should I be asking that I haven't yet?`
-> - "What if I asked Bob to draft a status update to my manager?" → `Draft a short status update email to my manager summarizing what I'm working on this week, based on the action items you extracted.`
-
 ---
 
 ### Exercise 3 (Optional): Drafting Email in Your Own Voice (10 minutes)
 
 **Scenario:** You need to send a follow-up email, but you want it to sound like *you* wrote it, not like generic AI output.
 
-**Before you start — choose your tone reference option:**
+> **Use your own content (optional):** For the strongest result, add 3–6 of your own past emails to
+> `sample-data/tone-reference-emails/` (or point Bob to wherever you saved them) so Bob learns your
+> actual voice. No reference emails on hand? Bob falls back to a solid neutral, professional tone
+> automatically, no extra setup needed.
 
-> ⚠️ **Do not add confidential, sensitive, or customer data.** Only use content you'd be comfortable sharing in a shared lab environment. When in doubt, use Option 3 below — it requires no personal content at all.
-
-- **Option 1 — Past emails you've written:** Paste 3–6 emails as `.txt` or `.md` files into `sample-data/tone-reference-emails/`. Note: `.eml` and `.msg` files from Outlook are not supported — copy and paste the text instead. Have a different file type? Ask Bob: `Help me convert this file to .md format.`
-- **Option 2 — LinkedIn posts you've written:** Paste 2–3 posts you've written as `.txt` or `.md` files in the same folder. These are public, so there's no privacy concern.
-- **Option 3 — Write a reply to a sample email (no personal content needed):** Open `sample-data/tone-reference-emails/sample-incoming-email.md`, read the email, then write your reply in a new file called `my-reply.md` in that same folder. Your reply becomes your tone sample.
-
-**How to add a file to the tone-reference-emails folder:**
-1. In the Bob Explorer panel, right-click `sample-data/tone-reference-emails/`
-2. Select **New File** and give it a name like `email-1.md`
-3. Paste your content in and save (`Cmd+S` / `Ctrl+S`)
-
-**Step 1:** In the Bob chat panel, ask Bob to review your tone reference material:
-```
-Read the emails in sample-data/tone-reference-emails/ and get a sense of how I typically write: tone, greeting/sign-off style, sentence length, level of formality.
-```
-
-**Step 2:** Ask Bob to draft a follow-up email:
-```
-Then draft a follow-up email to the vendor about the invoice discrepancy from the email chain, using that same voice.
-```
-
-**If you skipped the tone reference files, use this instead:**
-```
-Draft a professional follow-up email to the vendor about the invoice discrepancy from the email chain. Keep it concise and polite.
-```
-
-**Step 3:** Give Bob one round of feedback:
+**Tasks:**
+1. If you added 3–6 of your own emails to `sample-data/tone-reference-emails/` (or another folder of your choosing), ask Bob to review them first
+2. Ask Bob to draft a follow-up email based on one of the action items from Exercise 2, in your tone
+3. Give Bob one round of feedback and ask it to adjust
 
 **Example Prompt (with tone reference emails provided):**
 ```
@@ -181,50 +132,20 @@ Draft a professional follow-up email to the vendor about the invoice discrepancy
 Keep it concise and polite.
 ```
 
+**Follow-up feedback prompt:**
 ```
 Good, but I'm more direct than that in real emails; trim the pleasantries and get to the ask faster.
 ```
 
 **Expected Outcome:**
 - Bob produces a draft that's ready to send with light editing, not a generic template
-- With tone reference material: the draft sounds recognizably like you, not like a generic AI assistant
-- Without tone reference material: Bob still produces a solid professional draft as a fallback
+- With tone reference emails: the draft sounds recognizably like the participant, not like a generic AI assistant
+- Without tone reference emails: Bob still produces a solid professional draft as a fallback
 
 **💡 Real-time Value Indicator:**
 Drafting a follow-up email from scratch typically takes 5–10 minutes once you factor in re-reading context and getting the tone right. Bob produces a tone-matched first draft in seconds, leaving you to just review and send.
 
-> 💡 **Under the Hood:** This exercise uses the `tone-matched-drafting` skill — a custom Bob skill that reads your reference material, builds a model of how you write, and applies it when drafting. Bob activated it automatically. See [`resources/bob-differentiators.md`](../resources/bob-differentiators.md) to learn more about how custom skills extend Bob.
-
-> 🧭 **Want to explore?** If you have a few extra minutes:
-> - "What if I asked Bob to try a more casual tone?" → `Rewrite the email draft but make it more casual — I'm on good terms with this vendor.`
-> - "What if I asked Bob to cut it to 3 sentences?" → `Cut this draft down to 3 sentences. Keep only the ask.`
-> - "What if I asked Bob to describe my writing style back to me?" → `Based on the emails I shared, describe how I typically write — tone, formality, sentence style.`
-
----
-
----
-
-## 🔄 Try This Before You Move On
-
-You've covered all three exercises. Before heading to the next lab, try this in the Bob chat panel:
-
-```
-Show me my complete to-do list including everything from all three exercises.
-```
-
-Notice that Bob remembers the tasks you added in Exercise 1, the action items it extracted in Exercise 2, and any updates made in Exercise 3 — all within a single conversation.
-
----
-
-## 🧭 Keep Exploring
-
-You've covered the core of this lab. Bob can go further — here are some things worth trying if you still have time:
-
-- **Bring something real:** Paste in an actual email you need to respond to right now and ask Bob to draft a reply in your tone.
-- **Ask Bob what it would do differently:** `Looking at the to-do list and the action items you extracted, what would you do differently if you were managing my day?`
-- **Test Bob's memory:** `Without looking back, summarize everything we've worked on since the start of this conversation.`
-
-> 💡 The sample prompts throughout this lab are a starting point. Feel free to ask Bob anything you're curious about — including how it works. If something surprises you, ask a facilitator. That's what they're here for.
+> **Privacy note:** Only use emails you're comfortable sharing in this lab environment. Reference emails are used to describe writing style only; Bob does not need to see anything confidential to learn tone, sentence length, and phrasing patterns.
 
 ---
 
