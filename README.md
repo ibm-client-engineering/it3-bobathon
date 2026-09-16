@@ -43,7 +43,7 @@ or email madison.ramsey@ibm.com.
 2. Sign in to **[techzone.ibm.com](https://techzone.ibm.com)** and confirm your reserved VM is visible under **My TechZone → My Requests**
 3. Connect to your VM via the **OCP-V console** and launch Bob from the terminal
 
-> If you have any trouble with setup, come to the **office hours session on September 21** —
+> If you have any trouble with setup, come to an **office hours session on September 21 or September 22** —
 > don't wait until the day of the event.
 
 ---

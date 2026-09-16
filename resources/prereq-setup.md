@@ -1,10 +1,10 @@
 # Pre-Event Setup Guide — IT^3 Bob-a-thon
 
 > **Complete these steps before arriving on September 24.**
-> The entire setup takes about 10–15 minutes. If you run into trouble, join the
-> **office hours session on September 21** and an IBM facilitator will help you.
+> The entire setup takes about 10–15 minutes. If you run into trouble, join an
+> **office hours session on September 21 or September 22** and an IBM facilitator will help you.
 
-> 📅 **Come to office hours on September 21.** If anything in these steps doesn't work for you, don't wait until the day of the event. Office hours are specifically there to fix setup problems before the workshop — it's much easier to resolve issues before September 24 than on the morning of.
+> 📅 **Come to office hours on September 21 or September 22.** If anything in these steps doesn't work for you, don't wait until the day of the event. Office hours are specifically there to fix setup problems before the workshop — it's much easier to resolve issues before September 24 than on the morning of.
 
 ---
 
@@ -62,7 +62,7 @@ your TechZone account under **My TechZone → My Requests**.
 > **Your reservation may not appear until a few days before the event** — IBM is
 > provisioning and assigning VMs between September 18–21. If you check before September 18
 > and don't see anything yet, that's expected. Check back closer to the event, and confirm
-> access by the **September 21 office hours session**.
+> access by the **September 21 or September 22 office hours sessions**.
 
 ---
 
@@ -99,7 +99,7 @@ your TechZone account under **My TechZone → My Requests**.
 > - If it's before September 18, your VM may simply not have been assigned yet — check back
 >   in a day or two
 > - If you still don't see it after September 18, reach out to your IBM contact or come to
->   the **September 21 office hours session**
+>   an **office hours session on September 21 or September 22**
 
 ---
 
@@ -258,7 +258,7 @@ Once you arrive at the event and are ready to begin:
 | Can't find the terminal | Click **Activities** (top-left), then click the terminal icon in the dock at the bottom |
 | "Clone Repository" shows an error or "repository not found" | Confirm you pasted the full URL: `https://github.com/ibm-client-engineering/it3-bobathon` — then try again |
 
-**Still stuck?** Come to the **office hours session on September 21** or reach out to your
+**Still stuck?** Come to an **office hours session on September 21 or September 22** or reach out to your
 IBM event contact before the day of the workshop. Issues are much easier to resolve before
 September 24 — please don't wait until you arrive.
 
