@@ -1,8 +1,10 @@
 # Pre-Event Setup Guide — IT^3 Bob-a-thon
 
-> **Complete these steps before arriving on September 24.**  
+> **Complete these steps before arriving on September 24.**
 > The entire setup takes about 10–15 minutes. If you run into trouble, join the
 > **office hours session on September 21** and an IBM facilitator will help you.
+
+> 📅 **Come to office hours on September 21.** If anything in these steps doesn't work for you, don't wait until the day of the event. Office hours are specifically there to fix setup problems before the workshop — it's much easier to resolve issues before September 24 than on the morning of.
 
 ---
 
@@ -214,12 +216,25 @@ using the built-in Source Control view — no terminal needed.
 5. Bob will clone the repository. When it finishes, a prompt appears asking
    **"Would you like to open the cloned repository?"** — click **Open**
 
-6. Bob will load the lab files into the Explorer panel on the left — you are ready for
-   the workshop
+   > 💡 **What does "Open in Bob" mean?** This is Bob's way of asking whether to load the cloned folder into its workspace so it can read and work with the files. Click **Open** — you should then see the lab folder (`it3-bobathon`) appear in the Explorer panel on the left side of the Bob window.
+
+6. Bob may display a permission prompt asking if it can access files in this folder — click **Allow** (or **Yes**) to continue. This is expected and required for Bob to read the lab files.
+
+7. Confirm the files loaded: in the Explorer panel on the left, you should see folders named `Lab 1 - Productivity`, `Lab 2 - Research`, `Lab 3 - Developer Efficiency`, and a `README.md` file at the top level. If you don't see these, ask your IBM facilitator.
 
 > ✅ **Setup complete — stop here.** Bob is open, authenticated, and the lab files are
 > loaded. **Do not send any prompts yet.** Every message to Bob uses Bobcoins, and you want
 > to save them for the workshop labs. Leave Bob open until the event starts.
+
+---
+
+## Step 6 — Read the README before starting
+
+Once you arrive at the event and are ready to begin:
+
+1. In the Explorer panel on the left, click **`README.md`** at the top level of the `it3-bobathon` folder to open it
+2. Read it in full — it explains the lab structure, how to use the Bob chat panel, permissions, and where to go for help
+3. After reading the README, open `Lab 1 - Productivity/instructions.md` and start a new Bob chat — that's your starting point
 
 ---
 

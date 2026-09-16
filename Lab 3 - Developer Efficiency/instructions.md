@@ -1,11 +1,11 @@
 # Lab 3 — Developer Efficiency
 ### IT^3 Bob-a-thon · Sep 24, 2026
 
-**Duration:** 90 minutes  
-**Language:** Python  
-**Repo:** `Lab 3 - Developer Efficiency/data-pipeline/`  
-**Difficulty:** Progressive — 7 incremental checkpoints, each harder than the last  
-**Questions?** Madison Ramsey — madison.ramsey@ibm.com
+**Duration:** 90 minutes
+**Language:** Python
+**Repo:** `Lab 3 - Developer Efficiency/data-pipeline/`
+**Difficulty:** Progressive — 7 incremental checkpoints, each harder than the last
+**Questions?** Melissa Hadley — melissa.hadley@ibm.com
 
 ---
 
@@ -26,9 +26,18 @@ Work through a realistic Python data engineering codebase (`data-pipeline`) usin
 
 ## 📋 Setup
 
+> 💬 **Open the Bob chat panel before you start.** Click the Bob icon in the left sidebar, or press `⌥ ⌘ B` (Mac) / `Ctrl + Alt + B` (Windows). You should see a text input at the bottom — that's where you'll type all your prompts throughout this lab.
+
+> 💡 **Use one conversation for the entire lab — and keep it open until you claim your badge.**
+> Start a new Bob chat now and keep it open through all seven checkpoints. Bob builds cumulative context as you work — the codebase orientation from Checkpoint 1 informs the debugging in Checkpoint 4, and the full picture is what makes Checkpoints 6 and 7 most powerful. If you start a new chat mid-lab, that context resets.
+
+> 🏅 **Important — this conversation is your badge evidence.** When you finish the lab and claim your Bobathon badge, Bob's Badge Issuer Lite mode stays in this same chat and reads your conversation history to verify what you completed. **Do not close or start a new chat before claiming your badge.** The more checkpoints you worked through — and the more you explored and discussed — the smoother and more accurate that evaluation will be.
+
+> 🔐 **Note on the planted credential:** This codebase contains a deliberately hardcoded password in `config/settings.py`. You will find it in Checkpoint 3 — this is intentional sample data for the security scan exercise. Do not use this pattern in real code, and do not treat it as a live secret.
+
 Before starting, ensure you have:
 - [ ] Completed Lab 1
-- [ ] Bob running in your IDE or chat interface
+- [ ] Bob running with the chat panel open (see above)
 
 ### 🗂 Repository overview
 
@@ -47,6 +56,8 @@ data-pipeline/
 │   ├── logger.py               ← Logging setup
 │   └── db.py                   ← Database helpers
 └── tests/
+    ├── test_ingest.py
+    ├── test_risk_scorer.py
     ├── test_transform.py
     └── test_validate.py
 ```
@@ -96,6 +107,11 @@ data-pipeline/
 
 **✅ You're done when:** You can describe in one sentence what each module does without opening them yourself.
 
+> 🧭 **Want to go deeper?** If you have a few extra minutes:
+> - "What if I asked Bob to describe the data flow as a numbered sequence?" → `Describe the end-to-end data flow of this pipeline as a numbered sequence of steps, from raw CSV to data warehouse.`
+> - "What if I asked Bob which module is most likely to break in production?" → `Based on what you've seen, which module in this pipeline is most fragile or most likely to cause a production incident? Why?`
+> - "What if I asked Bob what's missing from this project entirely?" → `What would a production-ready version of this pipeline need that this codebase doesn't have yet?`
+
 ---
 
 ## ✅ Checkpoint 2 — Read and Explain Code
@@ -127,6 +143,11 @@ data-pipeline/
    ```
 
 **✅ You're done when:** You've traced the full transformation pipeline and Bob has documented `scale_features`.
+
+> 🧭 **Want to go deeper?** If you have a few extra minutes:
+> - "What if I asked Bob to explain it like I'm a junior developer?" → `Explain the normalize_amounts function in pipeline/transform.py as if I've never seen pandas before.`
+> - "What if I asked Bob to find the most complex function?" → `Which function in this codebase is the hardest to understand at a glance, and why?`
+> - "What if I asked Bob to find functions that do too many things at once?" → `Are there any functions in this codebase that violate the single-responsibility principle? Show me the worst offender.`
 
 ---
 
@@ -162,6 +183,11 @@ data-pipeline/
    > Ask Bob to explain why this is a risk and suggest a fix.
 
 **✅ You're done when:** Bob has found the hardcoded credential and you've discussed how to remediate it.
+
+> 🧭 **Want to go deeper?** If you have a few extra minutes:
+> - "What if I asked Bob to find all the places where errors are silently swallowed?" → `Find all places in this codebase where exceptions are caught but not logged or re-raised. List them.`
+> - "What if I asked Bob how to fix the credential properly?" → `How should the hardcoded password in config/settings.py be managed instead? Show me the recommended pattern using environment variables and a secrets manager.`
+> - "What if I asked Bob what other security risks exist?" → `Beyond the hardcoded credential, are there any other security concerns in this codebase I should be aware of?`
 
 ---
 
@@ -203,6 +229,11 @@ when all transaction amounts in a batch are identical. There is already a failin
 
 **✅ You're done when:** All tests in `test_transform.py` pass including `test_normalize_amounts_all_identical_values`.
 
+> 🧭 **Want to go deeper?** If you have a few extra minutes:
+> - "What if I asked Bob to find other places where the same class of bug might exist?" → `Are there other functions in this codebase that could produce silent NaN or division-by-zero issues under similar conditions? Scan for them.`
+> - "What if I asked Bob to explain the fix in plain English?" → `Explain the bug we just fixed and why it matters in plain English — no code, no jargon.`
+> - "What if I ran the full test suite?" → `Run the full test suite with pytest and show me a summary of all results.`
+
 ---
 
 ## ✅ Checkpoint 5 — Make and Validate Code Changes
@@ -243,6 +274,11 @@ column `is_weekend` to the DataFrame — `True` when the transaction occurred on
 
 **✅ You're done when:** The new function is in place, called in the pipeline, and the test passes.
 
+> 🧭 **Want to go deeper?** If you have a few extra minutes:
+> - "What if I asked Bob to review the code I just added for quality?" → `Review the add_weekend_flag function and its test for code quality. What would you change or improve?`
+> - "What if I asked Bob whether this change could break anything else?" → `Does adding add_weekend_flag to run_transformations have any downstream effects on loader.py or the risk scorer?`
+> - "What if I asked Bob to add a docstring?" → `Add a complete docstring to add_weekend_flag in pipeline/transform.py.`
+
 ---
 
 ## ✅ Checkpoint 6 — Bob Findings and ML Code Improvements *(Stretch)*
@@ -275,6 +311,11 @@ column `is_weekend` to the DataFrame — `True` when the transaction occurred on
    ```
 
 **✅ You're done when:** At least one Finding is understood and its improvement applied.
+
+> 🧭 **Want to go deeper?** If you have a few extra minutes:
+> - "What if I asked Bob to prioritize all the findings?" → `Of all the Findings you surfaced in the ML code, which one would you fix first if this were going to production tomorrow? Why?`
+> - "What if I asked Bob how the caching fix changes the performance profile?" → `Now that we've added module-level model caching, how does the memory and startup-time profile of risk_scorer.py change?`
+> - Apply one more finding end-to-end: pick any remaining finding and ask Bob to explain, implement, and test the fix.
 
 ---
 
@@ -331,6 +372,11 @@ DataFrame and produces a simple summary report:
 
 **✅ There is no finish line.** Keep going as long as you have time. If you've exhausted this checkpoint and still have time remaining, head back to Checkpoint 6 and apply the other Bob Findings you didn't act on — each one is a self-contained improvement worth exploring.
 
+> 🧭 **Want to go deeper?** If you have a few extra minutes:
+> - "What if I asked Bob where ReportGenerator should actually be called?" → `Where in the existing pipeline flow should ReportGenerator be invoked? Show me how to wire it in.`
+> - "What if I asked Bob what a v2 would look like?" → `If we were to build a more sophisticated version of ReportGenerator — charts, export formats, configurable metrics — what would the design look like?`
+> - "What if I asked Bob to reflect on the whole session?" → `Looking at everything we've done across all checkpoints, where did you save me the most time and where did I have to do the most work myself?`
+
 ---
 
 ## 📊 Business value — what did Bob just help you do?
@@ -345,6 +391,12 @@ DataFrame and produces a simple summary report:
 | ML code improvement (caching) | Requires profiling + architecture knowledge | Surfaced by Findings, explained, applied |
 
 **For a team of 10 data engineers:** even 30 minutes saved per developer per day = **~130 hours/month** returned to the team.
+
+---
+
+---
+
+> 💡 **Curious how Bob does this at scale?** Read about Bob Findings, sub-task orchestration, enterprise code modernization, and more in [`resources/bob-differentiators.md`](../resources/bob-differentiators.md).
 
 ---
 
@@ -366,4 +418,4 @@ After the lab:
 
 3. **Keep exploring** — still have time? Ask Bob anything you're curious about, revisit a checkpoint you didn't finish, or try a prompt on something from your own work. There's no better time to experiment than right now with a facilitator nearby.
 
-4. **Questions?** Reach out to Madison Ramsey — madison.ramsey@ibm.com
+4. **Questions?** Reach out to Melissa Hadley — melissa.hadley@ibm.com
