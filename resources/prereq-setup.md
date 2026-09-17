@@ -1,4 +1,4 @@
-# Pre-Event Setup Guide — IT^3 Bob-a-thon
+# Pre-Event Setup Guide — WIT IT^3 Conference: IBM Workshop — Bob-a-thon
 
 > **Complete these steps before arriving on September 24.**
 > The entire setup takes about 10–15 minutes. If you run into trouble, join an
@@ -210,8 +210,12 @@ using the built-in Source Control view — no terminal needed.
 
    Press **Enter**
 
-4. A folder picker opens. Choose a location to save the files — the default home folder
-   (`/home/<your-username>`) is fine. Click **Select as Repository Destination**
+4. A folder picker opens. **First, create a dedicated folder for the lab files:**
+   - Navigate to **Documents** (or your preferred home location)
+   - Click **New Folder**, name it `boblabs`, and open it
+   - Click **Select as Repository Destination**
+
+   > 💡 Using a named folder like `boblabs` keeps the lab files easy to find on your machine.
 
 5. Bob will clone the repository. When it finishes, a prompt appears asking
    **"Would you like to open the cloned repository?"** — click **Open**
@@ -220,7 +224,13 @@ using the built-in Source Control view — no terminal needed.
 
 6. Bob may display a permission prompt asking if it can access files in this folder — click **Allow** (or **Yes**) to continue. This is expected and required for Bob to read the lab files.
 
-7. Confirm the files loaded: in the Explorer panel on the left, you should see folders named `Lab 1 - Productivity`, `Lab 2 - Research`, `Lab 3 - Developer Efficiency`, and a `README.md` file at the top level. If you don't see these, ask your IBM facilitator.
+7. You may see a dialog asking **"Do you trust the authors of the files in this folder?"** — click **Yes, I trust the authors**. Without this, Bob cannot read or work with the lab files.
+
+8. You may also see a prompt asking you to install an update — click **Skip** (or close the dialog). You do not need to update Bob before the lab.
+
+   > 💡 **Hard double-click to expand folders.** In the Explorer panel, use a firm double-click to expand a folder — there may be a short delay before it opens. Wait a moment before clicking again.
+
+9. Confirm the files loaded: in the Explorer panel on the left, you should see folders named `Lab 1 - Productivity`, `Lab 2 - Research`, `Lab 3 - Developer Efficiency`, and a `README.md` file at the top level. If you don't see these, ask your IBM facilitator.
 
 > ✅ **Setup complete — stop here.** Bob is open, authenticated, and the lab files are
 > loaded. **Do not send any prompts yet.** Every message to Bob uses Bobcoins, and you want
@@ -264,4 +274,4 @@ September 24 — please don't wait until you arrive.
 
 ---
 
-*IT^3 Bob-a-thon · September 24, 2026 · Charlotte & Atlanta*
+*WIT IT^3 Conference: IBM Workshop — Bob-a-thon · September 24, 2026 · Charlotte & Atlanta*

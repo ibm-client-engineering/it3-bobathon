@@ -1,6 +1,6 @@
 # Data Pipeline — Sample Repository
 
-Welcome to the `data-pipeline` sample project. This is a simplified Python data engineering codebase built for the IT^3 Bob-a-thon lab exercises.
+Welcome to the `data-pipeline` sample project. This is a simplified Python data engineering codebase built for the WIT IT^3 Conference: IBM Workshop — Bob-a-thon lab exercises.
 
 ## What's in this repo
 
@@ -49,8 +49,8 @@ pytest tests/
 Bob should already be running in your TechZone VM.  
 If you need to verify: open a terminal in Bob and run `bob --version`.
 
-See your IBM facilitator or email madison.ramsey@ibm.com for full setup instructions.
+See your IBM facilitator or email melissa.hadley@ibm.com for full setup instructions.
 
 ---
 
-**Questions?** Contact Madison Ramsey — madison.ramsey@ibm.com
+**Questions?** Contact Melissa Hadley — melissa.hadley@ibm.com
