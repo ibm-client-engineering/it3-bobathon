@@ -64,6 +64,8 @@ your TechZone account under **My TechZone → My Requests**.
 > and don't see anything yet, that's expected. Check back closer to the event, and confirm
 > access by the **September 21 or September 22 office hours sessions**.
 
+> 📧 **You may receive an email from IBM Bob before the event.** Do not follow the instructions in that email — ignore it and follow the setup steps below instead.
+
 ---
 
 ### 2a — Sign in to TechZone
