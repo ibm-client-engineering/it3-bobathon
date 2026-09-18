@@ -1,5 +1,5 @@
 # Lab 3 — Developer Efficiency
-### IT^3 Bob-a-thon · Sep 24, 2026
+### WIT IT^3 Conference: IBM Workshop — Bob-a-thon · Sep 24, 2026
 
 **Duration:** 90 minutes
 **Language:** Python
@@ -34,6 +34,8 @@ Work through a realistic Python data engineering codebase (`data-pipeline`) usin
 > 🏅 **Important — this conversation is your badge evidence.** When you finish the lab and claim your Bobathon badge, Bob's Badge Issuer Lite mode stays in this same chat and reads your conversation history to verify what you completed. **Do not close or start a new chat before claiming your badge.** The more checkpoints you worked through — and the more you explored and discussed — the smoother and more accurate that evaluation will be.
 
 > 🔐 **Note on the planted credential:** This codebase contains a deliberately hardcoded password in `config/settings.py`. You will find it in Checkpoint 3 — this is intentional sample data for the security scan exercise. Do not use this pattern in real code, and do not treat it as a live secret.
+
+> ✅ **Approve all todo tools for the task.** When Bob first proposes using a tool (like the file reader, code runner, or subtask manager), **Approve** and **Reject** buttons appear above the chat input. Click **Approve** and select **"Approve All for this Task"** — this approves all tool uses in one go so you're not prompted again for every step. If you only approve once individually, Bob will keep asking for each subsequent action throughout the lab.
 
 Before starting, ensure you have:
 - [ ] Completed Lab 1

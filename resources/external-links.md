@@ -1,4 +1,4 @@
-# External Resources — IT^3 Bob-a-thon
+# External Resources — WIT IT^3 Conference: IBM Workshop — Bob-a-thon
 ### Developer Efficiency Lab · Python / Data Engineering
 
 Quick reference links for participants during and after the workshop.
@@ -81,10 +81,10 @@ Quick reference links for participants during and after the workshop.
 | Need | Contact |
 |---|---|
 | Workshop questions (during event) | Find an IBM facilitator on-site |
-| Follow-up questions | Madison Ramsey — madison.ramsey@ibm.com |
+| Follow-up questions | Melissa Hadley — melissa.hadley@ibm.com |
 | TechZone VM issues | Find an IBM facilitator on-site |
 | Bob documentation | https://ibm.biz/bob-doc |
 
 ---
 
-*Last updated for IT^3 Bob-a-thon · Sep 24, 2026*
+*Last updated for WIT IT^3 Conference: IBM Workshop — Bob-a-thon · Sep 24, 2026*

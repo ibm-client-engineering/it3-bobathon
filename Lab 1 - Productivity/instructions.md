@@ -17,6 +17,8 @@ By the end of this lab, you will be able to:
 
 > 💬 **Open the Bob chat panel before you start.** Click the Bob icon in the left sidebar, or press `⌥ ⌘ B` (Mac) / `Ctrl + Alt + B` (Windows). You should see a text input at the bottom — that's where you'll type all your prompts throughout this lab.
 
+> ⚠️ **When pasting prompts in the TechZone VM:** Do not use "Send Text" to paste into Bob. "Send Text" sends each line of a multi-line prompt as a separate message — Bob will execute each sentence individually, which produces confusing or incomplete results. Instead, **copy the prompt text within the VM**, then paste it directly into the Bob chat input with `Ctrl+V`.
+
 > 💡 **Use one conversation for the entire lab — and keep it open until you claim your badge.**
 > Start a new Bob chat now and keep it open through all three exercises. Bob holds your to-do list, your action items, and the full context of what you've done — but only within the same conversation. If you start a new chat mid-lab, that context is gone and exercises that build on earlier ones won't work as intended.
 
@@ -25,6 +27,8 @@ By the end of this lab, you will be able to:
 > ⚠️ **Do not add confidential, sensitive, or customer data to any lab folder.** Only use content you're comfortable sharing in a shared lab environment.
 
 > 📌 **Tip:** Keep this instructions file open in a pinned tab so you can switch back to the Bob chat easily. In Bob, right-click the tab and select **Keep Open** (or **Pin Tab**) to prevent it from closing automatically.
+
+> ✅ **Approve all todo tools for the task.** When Bob first proposes using a tool (like the to-do manager or file reader), **Approve** and **Reject** buttons appear above the chat input. Click **Approve** and select **"Approve All for this Task"** — this approves all tool uses in one go so you're not prompted again for every step. If you only approve once individually, Bob will keep asking for each subsequent action throughout the lab.
 
 Before starting, ensure you have:
 - [ ] Bob running with the chat panel open (see above)

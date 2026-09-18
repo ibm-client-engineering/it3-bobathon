@@ -1,7 +1,7 @@
-# IT^3 Bob-a-thon — Participant Guide
-### Developer Efficiency Lab · September 24, 2026
+# WIT IT^3 Conference: IBM Workshop — Bob-a-thon
+### September 24, 2026
 
-Welcome to the Women in Technology Bob-a-thon! This guide has everything you need
+Welcome to the IBM Workshop Bob-a-thon! This guide has everything you need
 to get started and get the most out of the 90-minute workshop.
 
 ---
@@ -18,6 +18,18 @@ to get started and get the most out of the 90-minute workshop.
 
 ---
 
+## 🤖 About this workshop
+
+### What is IBM Bob?
+
+IBM Bob is an AI-powered assistant built into your development environment. It helps engineers and non-technical teammates alike get work done faster — answering questions, automating daily tasks, and writing, fixing, or refactoring code — all through a simple chat interface. You don't need to know how to code to get value from it.
+
+### What is a Bob-a-thon?
+
+A Bob-a-thon is a hands-on learning experience where you work through guided exercises to explore how AI can support research, productivity, and software development tasks. Think of today's labs as a low-stakes sandbox: the goal is to get comfortable asking Bob for help and to leave with a feel for what it can do in your day-to-day work.
+
+---
+
 ## 💻 What you'll need
 
 Everything runs in your **TechZone VM** — no local installation required.
@@ -27,7 +39,7 @@ Everything runs in your **TechZone VM** — no local installation required.
 - Python 3.9.21 is pre-installed in the VM
 
 **If you have trouble accessing your VM:** Find an IBM facilitator at your location
-or email madison.ramsey@ibm.com.
+or email melissa.hadley@ibm.com.
 
 ---
 
@@ -185,7 +197,7 @@ To enable auto-approve: hover over the **Auto-Approve toolbar** above the chat i
 | Lab 3 instructions | `Lab 3 - Developer Efficiency/instructions.md` |
 | Badge guide | `BADGE_GUIDE.md` |
 | Bob cheat sheet | Contact your IBM facilitator |
-| Bob installation (outside TechZone) | Contact Madison Ramsey |
+| Bob installation (outside TechZone) | Contact Melissa Hadley — melissa.hadley@ibm.com |
 | IBM Bob documentation | [To be confirmed — check with IBM facilitator] |
 
 ---

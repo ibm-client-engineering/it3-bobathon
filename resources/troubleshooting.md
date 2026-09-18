@@ -518,9 +518,9 @@ Commit working code before making changes
 - Check `resources/external-links.md` for Python/pandas documentation
 
 ### After the Bob-a-thon
-- **Email:** madison.ramsey@ibm.com
+- **Email:** Melissa Hadley — melissa.hadley@ibm.com
 - **Bob documentation:** https://ibm.biz/bob-doc
-- **Office hours:** Week of Sep 29 (TBD — Madison will send invite)
+- **Office hours:** Week of Sep 29 (TBD — Melissa will send invite)
 
 ---
 

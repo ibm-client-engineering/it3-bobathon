@@ -23,6 +23,8 @@ By the end of this lab, you will be able to:
 
 > ⚠️ **Do not add confidential, sensitive, or customer data to any lab folder.** Only use content you're comfortable sharing in a shared lab environment.
 
+> ✅ **Approve all todo tools for the task.** When Bob first proposes using a tool (like the file reader or search), **Approve** and **Reject** buttons appear above the chat input. Click **Approve** and select **"Approve All for this Task"** — this approves all tool uses in one go so you're not prompted again for every step. If you only approve once individually, Bob will keep asking for each subsequent action throughout the lab.
+
 Before starting, ensure you have:
 - [ ] Completed Lab 1
 - [ ] Bob running with the chat panel open (see above)
@@ -273,7 +275,7 @@ Once you've completed this lab:
 
 3. **Keep exploring** — still have time? Ask Bob anything you're curious about, revisit an exercise you didn't finish, or try a prompt on something from your own work. There's no better time to experiment than right now with a facilitator nearby.
 
-4. **Questions?** Reach out to Madison Ramsey — madison.ramsey@ibm.com
+4. **Questions?** Reach out to Melissa Hadley — melissa.hadley@ibm.com
 
 ---
 
