@@ -135,11 +135,10 @@ no SSH, no software to install.
 
    ![RHEL home screen loaded in the browser, showing the desktop and taskbar](prereq-setup-images/s3-rhel-desktop-loaded.png)
 
-> 💡 **Browser tips:**
-> - Chrome and Edge both work.
-> - If any tab shows a blank or black screen, wait 30 seconds then refresh it.
-> - If you see a login prompt on the RHEL desktop, use the credentials shown on the
->   reservation detail page or ask your IBM facilitator.
+> 💡 **Working with the OCP-V RDP Web Console & Sending Text:**
+> - **Sending text / clipboard into the VM:** Because this is a browser-based RDP web console, standard local copy-paste (Ctrl+V / Cmd+V) may not directly transfer text into the remote desktop. Instead, use the **"Send Text"** button in the toolbar across the top of the console window to paste and send text into the VM.
+> - **Login & Password prompts:** If you encounter a login or password prompt, you can use the **"Send Text"** button to send text into the prompt. Note that the toolbar also includes a dedicated button specifically to send/paste the password.
+> - **Browser tips:** Chrome and Edge both work well. If any tab shows a blank or black screen, wait 30 seconds and refresh it.
 
 ---
 
@@ -210,14 +209,16 @@ using the built-in Source Control view — no terminal needed.
    https://github.com/ibm-client-engineering/it3-bobathon
    ```
 
+   *(Note: Since you are in the OCP-V web RDP console, use the **"Send Text"** button at the top of the console window to paste the repository URL into the VM if standard copy-paste does not transfer over).*
+
    Press **Enter**
 
-4. A folder picker opens. **First, create a dedicated folder for the lab files:**
-   - Navigate to **Documents** (or your preferred home location)
-   - Click **New Folder**, name it `boblabs`, and open it
+4. A folder picker opens asking where on the VM disk to save the cloned repository. You can select any location on disk (such as `Documents` or your home directory), or optionally create a dedicated folder:
+   - Navigate to **Documents** (or your preferred location)
+   - Click **New Folder** (for example, named `boblabs` or similar) and select it
    - Click **Select as Repository Destination**
 
-   > 💡 Using a named folder like `boblabs` keeps the lab files easy to find on your machine.
+   > 💡 Creating a named folder like `boblabs` keeps your lab files clean and easy to find on the VM disk.
 
 5. Bob will clone the repository. When it finishes, a prompt appears asking
    **"Would you like to open the cloned repository?"** — click **Open**
@@ -262,6 +263,7 @@ Once you arrive at the event and are ready to begin:
 | Console URL link is missing from the expanded row | The VM may still be provisioning — wait a few minutes and refresh the page |
 | Prompted to sign in again at the OCP-V console | Sign in with your IBMid (same work email and password) — this is expected |
 | RDP connection tab shows a blank or black screen | Wait 30 sec then refresh; if it persists, close the tab and click the console URL again |
+| Cannot paste text/URLs/passwords into VM | Use the **"Send Text"** button (or the dedicated password button) in the top toolbar of the OCP-V RDP web console |
 | Bob freezes immediately on launch | Close Bob; reopen the terminal and run `bobide --password-store=basic` |
 | "Log in to Bob" button doesn't appear | Wait 30 sec; if still missing, close Bob and relaunch with `bobide --password-store=basic` |
 | Security warning when clicking Log in to Bob | Click **Allow** or **Open** — this is expected and safe |
