@@ -15,6 +15,8 @@ By the end of this lab, you will be able to:
 
 ## 📋 Setup
 
+> 🤖 **Start in Agent mode.** Before opening a new chat, make sure Bob is set to **Agent** mode — look at the mode selector at the top of the chat panel and switch to **Agent** if it shows something else (e.g. Ask, Plan, or a custom mode). Agent mode is the only mode that can read files, run tools, and take actions on your behalf. If you're in Ask or Plan mode, Bob will answer questions but won't be able to maintain your to-do list, extract action items, or perform any of the hands-on steps in this lab.
+
 > 💬 **Open the Bob chat panel before you start.** Click the Bob icon in the left sidebar, or press `⌥ ⌘ B` (Mac) / `Ctrl + Alt + B` (Windows). You should see a text input at the bottom — that's where you'll type all your prompts throughout this lab.
 
 > ⚠️ **When pasting prompts in the TechZone VM:** Do not use "Send Text" to paste into Bob. "Send Text" sends each line of a multi-line prompt as a separate message — Bob will execute each sentence individually, which produces confusing or incomplete results. Instead, **copy the prompt text within the VM**, then paste it directly into the Bob chat input with `Ctrl+V`.
@@ -27,6 +29,8 @@ By the end of this lab, you will be able to:
 > ⚠️ **Do not add confidential, sensitive, or customer data to any lab folder.** Only use content you're comfortable sharing in a shared lab environment.
 
 > 📌 **Tip:** Keep this instructions file open in a pinned tab so you can switch back to the Bob chat easily. In Bob, right-click the tab and select **Keep Open** (or **Pin Tab**) to prevent it from closing automatically.
+
+> 🖥️ **VM issues?** If your VM disconnects or shows a password/lock screen at any point during the lab, see the **Troubleshooting** section in [`resources/prereq-setup.md`](../resources/prereq-setup.md) for step-by-step instructions on reconnecting and unlocking.
 
 > ✅ **Approve all todo tools for the task.** When Bob first proposes using a tool (like the to-do manager or file reader), **Approve** and **Reject** buttons appear above the chat input. Click **Approve** and select **"Approve All for this Task"** — this approves all tool uses in one go so you're not prompted again for every step. If you only approve once individually, Bob will keep asking for each subsequent action throughout the lab.
 
