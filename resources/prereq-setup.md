@@ -78,7 +78,7 @@ Because Bob sign-in will not work with a corporate IBMid from inside the VM, you
 
 Once your personal IBMid is confirmed:
 
-1. Email your IBM event contact with the subject line **"Bob personal IBMid — [Your Name]"**
+1. Email **[melissa.hadley@ibm.com](mailto:melissa.hadley@ibm.com)** with the subject line **"Bob personal IBMid — [Your Name]"**
 2. In the body, include your **personal email address** (the one you just registered or verified)
 3. Wait for a confirmation reply that your license has been set up before attending the event
 
@@ -311,7 +311,7 @@ Once you arrive at the event and are ready to begin:
 | Bob asks for credentials you don't recognize | For Bob login use your **personal email IBMid** (Step 1b); for TechZone/OCP-V use your corporate email IBMid (Step 1a) |
 | Can't find the terminal | Click **Activities** (top-left), then click the terminal icon in the dock at the bottom |
 | "Clone Repository" shows an error or "repository not found" | Confirm you pasted the full URL: `https://github.com/ibm-client-engineering/it3-bobathon` — then try again |
-| Haven't sent personal IBMid email to event team yet | Email your IBM event contact now with subject "Bob personal IBMid — [Your Name]" and your personal email address |
+| Haven't sent personal IBMid email to event team yet | Email **melissa.hadley@ibm.com** now with subject "Bob personal IBMid — [Your Name]" and your personal email address |
 
 **Still stuck?** Come to an **office hours session on September 21 or September 22** or reach out to your
 IBM event contact before the day of the workshop. Issues are much easier to resolve before
