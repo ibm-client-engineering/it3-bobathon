@@ -121,6 +121,8 @@ no SSH, no software to install.
 
    ![Expanded environment row showing the console URL link highlighted](prereq-setup-images/s3-console-url-link.png)
 
+   > 💾 **Save the console URL and password now — before you click anything else.** Copy the console URL and any VM password shown on this reservation detail page and paste them into a Word document or plain text file saved on your local machine (not inside the VM). You may need them again if your browser tab closes, your session times out during the workshop, or you need to reconnect from a different device. Hunting back through TechZone for them mid-session wastes time — save them here.
+
 3. A new browser tab opens showing the OCP-V console. You may be prompted to sign in with
    your **IBMid** again at this point — use the same work email address and password. Once
    signed in, find your VM in the list and click the **Console** button
@@ -263,6 +265,8 @@ Once you arrive at the event and are ready to begin:
 | Console URL link is missing from the expanded row | The VM may still be provisioning — wait a few minutes and refresh the page |
 | Prompted to sign in again at the OCP-V console | Sign in with your IBMid (same work email and password) — this is expected |
 | RDP connection tab shows a blank or black screen | Wait 30 sec then refresh; if it persists, close the tab and click the console URL again |
+| VM disconnects during the workshop | Click the **Console** button on your TechZone reservation detail page to reconnect. When the VM loads, enter your password using the **"Send Text"** button in the top toolbar of the OCP-V RDP web console |
+| VM shows a password/lock screen | The screen has locked due to inactivity. Use the **"Send Text"** button in the top toolbar to type your password and unlock it |
 | Cannot paste text/URLs/passwords into VM | Use the **"Send Text"** button (or the dedicated password button) in the top toolbar of the OCP-V RDP web console |
 | Bob freezes immediately on launch | Close Bob; reopen the terminal and run `bobide --password-store=basic` |
 | "Log in to Bob" button doesn't appear | Wait 30 sec; if still missing, close Bob and relaunch with `bobide --password-store=basic` |

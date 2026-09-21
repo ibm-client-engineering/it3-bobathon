@@ -64,6 +64,8 @@ or email melissa.hadley@ibm.com.
 
 This workshop includes **three labs**. Everyone begins with **Lab 1**, then continues with a second lab based on your role and interests.
 
+> 🤖 **Before starting any lab — confirm you're in Agent mode.** Look at the mode selector at the top of the Bob chat panel. It should say **Agent**. If it shows anything else (Ask, Plan, or a custom mode name), click it and switch to **Agent** before you begin. Agent mode is the only mode that can read files, run tools, and take actions on your behalf — it's what makes the hands-on exercises work. The other modes are conversational-only and will not be able to complete the lab steps.
+
 > 💬 **All labs are driven from the Bob chat interface.** You'll type prompts, review responses, and approve actions directly in the Bob chat panel — you won't need to run scripts or use the terminal yourself. To open the chat panel if it isn't already visible, click the **Bob icon** in the sidebar, or use the keyboard shortcut **`⌥ ⌘ B`** (Mac) / **`Ctrl + Alt + B`** (Windows). The panel has three parts: the conversation history at the top, a text input at the bottom where you type your prompts, and a Send button (or press **Enter**) to submit.
 
 > 💡 **Not sure how to open a folder in Bob or what "Open in Bob" means?** See Step 5 of your [pre-event setup guide](resources/prereq-setup.md) for a step-by-step walkthrough.

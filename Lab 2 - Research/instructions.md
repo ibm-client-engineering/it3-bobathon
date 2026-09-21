@@ -14,6 +14,8 @@ By the end of this lab, you will be able to:
 
 ## 📋 Setup
 
+> 🤖 **Start in Agent mode.** Before opening a new chat, make sure Bob is set to **Agent** mode — look at the mode selector at the top of the chat panel and switch to **Agent** if it shows something else (e.g. Ask, Plan, or a custom mode). Agent mode is the only mode that can read files, run tools, and take actions on your behalf. If you're in Ask or Plan mode, Bob will answer questions but won't be able to read your research documents, cross-reference sources, or produce any of the structured deliverables in this lab.
+
 > 💬 **Open the Bob chat panel before you start.** Click the Bob icon in the left sidebar, or press `⌥ ⌘ B` (Mac) / `Ctrl + Alt + B` (Windows). You should see a text input at the bottom — that's where you'll type all your prompts throughout this lab.
 
 > 💡 **Use one conversation for this entire lab — and keep it open until you claim your badge.**
@@ -22,6 +24,8 @@ By the end of this lab, you will be able to:
 > 🏅 **Important — this conversation is your badge evidence.** When you finish the lab and claim your Bobathon badge, Bob's Badge Issuer Lite mode stays in this same chat and reads your conversation history to verify what you completed. **Do not close or start a new chat before claiming your badge.** The richer your conversation — the more you explored, asked, and tried — the smoother and faster that evaluation will be.
 
 > ⚠️ **Do not add confidential, sensitive, or customer data to any lab folder.** Only use content you're comfortable sharing in a shared lab environment.
+
+> 🖥️ **VM issues?** If your VM disconnects or shows a password/lock screen at any point during the lab, see the **Troubleshooting** section in [`resources/prereq-setup.md`](../resources/prereq-setup.md) for step-by-step instructions on reconnecting and unlocking.
 
 > ✅ **Approve all todo tools for the task.** When Bob first proposes using a tool (like the file reader or search), **Approve** and **Reject** buttons appear above the chat input. Click **Approve** and select **"Approve All for this Task"** — this approves all tool uses in one go so you're not prompted again for every step. If you only approve once individually, Bob will keep asking for each subsequent action throughout the lab.
 
