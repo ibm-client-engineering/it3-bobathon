@@ -8,55 +8,87 @@
 
 ---
 
-## Step 1 — Verify or create your IBMid
+## Step 1 — Set up your IBMid accounts
 
-An IBMid is your login for IBM services, including TechZone (where your lab VM lives).
-If you already use any IBM product or have participated in an IBM event before, you likely
-already have one.
+> ⚠️ **Most participants need two separate IBMid accounts for this workshop** — one for TechZone/VM access and one for Bob login. Read this step carefully before doing anything.
 
-### Do you already have an IBMid?
+This workshop uses two IBM services that require IBMid sign-in. For most participants they must use **different IBMid accounts**:
 
-1. Go to **[ibm.com/account](https://www.ibm.com/account)**
-2. Click **Log in**
-3. Enter your **work email address** and click **Continue**
-4. If the sign-in succeeds, you have an IBMid — **proceed to Step 2**
-5. If you see "No account found" or are prompted to register, continue below to create one
+| Service | Which IBMid to use |
+|---|---|
+| TechZone (VM access) | IBMid tied to **the email you registered for the event with** |
+| Bob login (inside the VM) | IBMid tied to a **personal email address** |
 
-> 💡 **Use your work email address.** IBM will assign your lab VM to the same email
-> address you use here. A mismatch between the two will prevent you from accessing your VM.
+**Why two accounts?** Most participants registered with their corporate email, which has an identity provider (IdP) trust set up with IBMid. This works fine on corporate devices, but the lab VMs are not in the trusted corporate domain, so a corporate IBMid sign-in will fail when attempted from inside the VM. A personal-email IBMid bypasses this restriction entirely.
+
+> 💡 **Registered for the event with a personal/Gmail address?** Your VM is already assigned to that personal email, so you only need one IBMid. Use it for both TechZone and Bob login — skip ahead to the "Send your personal IBMid to the event team" section below to make sure we have your address on file for the Bob license.
 
 ---
 
-### Creating a new IBMid
+### 1a — TechZone access (event registration email IBMid)
 
-If you don't have an IBMid yet, register one now:
+IBM assigned your lab VM to the same email address you used when you registered for the event. This step confirms that IBMid account exists.
+
+1. Go to **[ibm.com/account](https://www.ibm.com/account)**
+2. Click **Log in**
+3. Enter the **email address you registered for the event with** and click **Continue**
+4. If the sign-in succeeds, you will land on the IBM account page. You may see a message saying you have no accesses or no requests set up — **this is normal and expected**. Your IBMid is confirmed — **proceed to Step 1b**
+5. If you see "No account found", register at **[ibm.com/account/reg/us-en/signup](https://www.ibm.com/account/reg/us-en/signup)** using that same registration email address, then verify and confirm sign-in works
+
+> 💡 IBM assigned your lab VM to the email address you registered for the event with. A mismatch will prevent you from seeing your VM in TechZone.
+
+---
+
+### 1b — Bob login (personal email IBMid) ← required new step
+
+Because Bob sign-in will not work with a corporate IBMid from inside the VM, you must have an IBMid registered to a **personal email address** (Gmail, Outlook.com, Yahoo, iCloud, etc.).
+
+**Check whether you already have a personal IBMid:**
+
+1. Go to **[ibm.com/account](https://www.ibm.com/account)**
+2. Click **Log in**
+3. Enter your **personal email address** and click **Continue**
+4. If sign-in succeeds — you will land on the IBM account page. You may see a message saying you have no accesses or no requests set up — **this is normal and expected**. Proceed to **"Send your personal IBMid to the event team"** below
+5. If you see "No account found", continue to **"Create a new personal IBMid"** below
+
+---
+
+#### Create a new personal IBMid
 
 1. Go to **[ibm.com/account/reg/us-en/signup](https://www.ibm.com/account/reg/us-en/signup)**
 
    ![IBMid registration form](prereq-setup-images/s1-ibmid-registration-form.png)
 
 2. Fill in the form:
-   - **Email address** — enter your **work email address** (the address IBM will use to assign your VM)
+   - **Email address** — enter your **personal email address** (not your work/corporate email)
    - **First name**, **Last name**, **Country/region**
-   - Create a **password** (note it somewhere safe)
+   - Create a **password** (note it somewhere safe — you will need it during the workshop)
 
 3. Click **Create account**
 
-4. Check your work email inbox for a **verification email from IBM** and click the
-   **Verify** link to activate your account
+4. Check your **personal email inbox** for a **verification email from IBM** and click the **Verify** link to activate the account
 
-5. Return to **[ibm.com/account](https://www.ibm.com/account)** and sign in to confirm
-   your IBMid works
+5. Return to **[ibm.com/account](https://www.ibm.com/account)** and sign in with your personal email to confirm the IBMid works. You will land on the IBM account page — you may see a message saying you have no accesses or no requests set up. **This is normal and expected**; your account is active and ready to use.
 
-> ⚠️ **Important:** Once created, your IBMid is tied to the email address you used.
-> Let your IBM event contact know immediately if you registered with a different address
-> than the one they have on file — they will need to re-assign the VM.
+---
+
+#### Send your personal IBMid to the event team
+
+> ⚠️ **This step is required before the workshop.** Bob licenses are provisioned per-account. If we do not have your personal email address on file, your Bob login will fail on the day of the event.
+
+Once your personal IBMid is confirmed:
+
+1. Email your IBM event contact with the subject line **"Bob personal IBMid — [Your Name]"**
+2. In the body, include your **personal email address** (the one you just registered or verified)
+3. Wait for a confirmation reply that your license has been set up before attending the event
+
+> 💡 **Do this as early as possible.** Licenses are set up in batches. If you send your email the morning of September 24, there may not be time to provision your account before the workshop starts. Send it now.
 
 ---
 
 ## Step 2 — Access TechZone and find your VM
 
-IBM will assign your lab VM to your IBMid before the event. Once assigned, it appears in
+IBM assigned your lab VM to the email address you registered for the event with. Once assigned, it appears in
 your TechZone account under **My TechZone → My Requests**.
 
 > **Your reservation may not appear until a few days before the event** — IBM is
@@ -74,7 +106,7 @@ your TechZone account under **My TechZone → My Requests**.
 
 2. Click **Sign in** in the top-right corner
 
-3. Sign in with your **IBMid** (your work email address and password)
+3. Sign in with the **IBMid tied to the email you registered for the event with**
 
 4. You should land on the TechZone home/dashboard page
 
@@ -96,8 +128,7 @@ your TechZone account under **My TechZone → My Requests**.
 3. Click on the reservation to open its detail page
 
 > **Don't see your reservation?**
-> - Make sure you are signed in with the **correct work email address** — the same one you
->   gave to your IBM event contact
+> - Make sure you are signed in with the **IBMid tied to the email you registered for the event with** — not your personal one if they differ
 > - If it's before September 18, your VM may simply not have been assigned yet — check back
 >   in a day or two
 > - If you still don't see it after September 18, reach out to your IBM contact or come to
@@ -124,7 +155,7 @@ no SSH, no software to install.
    > 💾 **Save the console URL and password now — before you click anything else.** Copy the console URL and any VM password shown on this reservation detail page and paste them into a Word document or plain text file saved on your local machine (not inside the VM). You may need them again if your browser tab closes, your session times out during the workshop, or you need to reconnect from a different device. Hunting back through TechZone for them mid-session wastes time — save them here.
 
 3. A new browser tab opens showing the OCP-V console. You may be prompted to sign in with
-   your **IBMid** again at this point — use the same work email address and password. Once
+   your **IBMid** again at this point — use the **same IBMid you used for TechZone** (the email you registered for the event with). Once
    signed in, find your VM in the list and click the **Console** button
 
    ![OCP-V console page showing the VM listed with the Console button highlighted](prereq-setup-images/s3-ocpv-console-vm.png)
@@ -161,6 +192,8 @@ no SSH, no software to install.
    bobide --password-store=basic
    ```
 
+   > 💡 **Tip:** To paste this command into the VM rather than typing it manually, use the **"Send Text"** button in the toolbar at the top of the OCP-V console window — standard copy-paste (Ctrl+V / Cmd+V) won't work from your local machine into the VM.
+
 3. Bob will launch. On the very first launch it may take 15–30 seconds to start — this
    is normal
 
@@ -185,8 +218,9 @@ no SSH, no software to install.
    > browser may show a security prompt asking if you want to allow Bob to open a browser
    > window. Click **Allow** (or **Open**, depending on the prompt) to continue.
 
-6. A browser window opens automatically. Sign in with your **IBMid** (work email address
-   and password) — the same account you verified in Step 1
+6. A browser window opens automatically. Sign in with your **personal email IBMid** — the personal email address and password you set up in Step 1b.
+
+   > ⚠️ **Do not use your work/corporate email here.** Corporate IBMid sign-in will fail from inside the VM. You must use the personal IBMid you registered in Step 1b and sent to the event team.
 
 7. After signing in, return to the Bob window. Bob should show the chat panel on the
    right side of the interface — you're authenticated and ready
@@ -258,23 +292,26 @@ Once you arrive at the event and are ready to begin:
 | Problem | What to do |
 |---|---|
 | IBMid registration email never arrived | Check spam/junk folder; try resending from the IBMid registration page |
-| "No account found" at TechZone sign-in | Confirm you're using the same work email as your IBMid |
+| "No account found" at TechZone sign-in | Confirm you're using the IBMid tied to **the email you registered for the event with** (Step 1a) |
 | No reservation visible in My Requests | If it's before Sep 18, check back later; if after Sep 18, contact your IBM event contact |
 | Reservation shows but status is "Pending" | Provisioning is still in progress — check back in 30–60 min |
 | No "OCP-V RHEL 9 VM - Bob IDE" row in Environments table | Scroll down on the reservation detail page; if missing, contact your IBM facilitator |
 | Console URL link is missing from the expanded row | The VM may still be provisioning — wait a few minutes and refresh the page |
-| Prompted to sign in again at the OCP-V console | Sign in with your IBMid (same work email and password) — this is expected |
+| Prompted to sign in again at the OCP-V console | Sign in with the **same IBMid you used for TechZone** (your event registration email) — this is expected |
 | RDP connection tab shows a blank or black screen | Wait 30 sec then refresh; if it persists, close the tab and click the console URL again |
 | VM disconnects during the workshop | Click the **Console** button on your TechZone reservation detail page to reconnect. When the VM loads, enter your password using the **"Send Text"** button in the top toolbar of the OCP-V RDP web console |
 | VM shows a password/lock screen | The screen has locked due to inactivity. Use the **"Send Text"** button in the top toolbar to type your password and unlock it |
 | Cannot paste text/URLs/passwords into VM | Use the **"Send Text"** button (or the dedicated password button) in the top toolbar of the OCP-V RDP web console |
 | Bob freezes immediately on launch | Close Bob; reopen the terminal and run `bobide --password-store=basic` |
 | "Log in to Bob" button doesn't appear | Wait 30 sec; if still missing, close Bob and relaunch with `bobide --password-store=basic` |
+| Bob login fails / "account not found" error | You may be signed in with your corporate email — sign out and sign back in with your **personal email IBMid** (Step 1b) |
+| Bob login says account is not licensed / no access | Your personal IBMid was not received by the event team in time. Contact your IBM event contact immediately |
 | Security warning when clicking Log in to Bob | Click **Allow** or **Open** — this is expected and safe |
 | Browser doesn't open when clicking Log in | Look for a browser window behind the Bob window, or open a browser manually and try signing in again |
-| Bob asks for credentials you don't recognize | Use your IBMid work email and password — the same one you registered in Step 1 |
+| Bob asks for credentials you don't recognize | For Bob login use your **personal email IBMid** (Step 1b); for TechZone/OCP-V use your corporate email IBMid (Step 1a) |
 | Can't find the terminal | Click **Activities** (top-left), then click the terminal icon in the dock at the bottom |
 | "Clone Repository" shows an error or "repository not found" | Confirm you pasted the full URL: `https://github.com/ibm-client-engineering/it3-bobathon` — then try again |
+| Haven't sent personal IBMid email to event team yet | Email your IBM event contact now with subject "Bob personal IBMid — [Your Name]" and your personal email address |
 
 **Still stuck?** Come to an **office hours session on September 21 or September 22** or reach out to your
 IBM event contact before the day of the workshop. Issues are much easier to resolve before
