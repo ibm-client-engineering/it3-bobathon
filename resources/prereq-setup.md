@@ -29,11 +29,11 @@ This workshop uses two IBM services that require IBMid sign-in. For most partici
 
 IBM assigned your lab VM to the same email address you used when you registered for the event. This step confirms that IBMid account exists.
 
-1. Go to **[ibm.com/account](https://www.ibm.com/account)**
+1. Go to **<a href="https://www.ibm.com/account" target="_blank" rel="noopener noreferrer">ibm.com/account</a>**
 2. Click **Log in**
 3. Enter the **email address you registered for the event with** and click **Continue**
 4. If the sign-in succeeds, you will land on the IBM account page. You may see a message saying you have no accesses or no requests set up — **this is normal and expected**. Your IBMid is confirmed — **proceed to Step 1b**
-5. If you see "No account found", register at **[ibm.com/account/reg/us-en/signup](https://www.ibm.com/account/reg/us-en/signup)** using that same registration email address, then verify and confirm sign-in works
+5. If you see "No account found", register at **<a href="https://www.ibm.com/account/reg/us-en/signup" target="_blank" rel="noopener noreferrer">ibm.com/account/reg/us-en/signup</a>** using that same registration email address, then verify and confirm sign-in works
 
 > 💡 IBM assigned your lab VM to the email address you registered for the event with. A mismatch will prevent you from seeing your VM in TechZone.
 
@@ -45,7 +45,7 @@ Because Bob sign-in will not work with a corporate IBMid from inside the VM, you
 
 **Check whether you already have a personal IBMid:**
 
-1. Go to **[ibm.com/account](https://www.ibm.com/account)**
+1. Go to **<a href="https://www.ibm.com/account" target="_blank" rel="noopener noreferrer">ibm.com/account</a>**
 2. Click **Log in**
 3. Enter your **personal email address** and click **Continue**
 4. If sign-in succeeds — you will land on the IBM account page. You may see a message saying you have no accesses or no requests set up — **this is normal and expected**. Proceed to **"Send your personal IBMid to the event team"** below
@@ -55,7 +55,7 @@ Because Bob sign-in will not work with a corporate IBMid from inside the VM, you
 
 #### Create a new personal IBMid
 
-1. Go to **[ibm.com/account/reg/us-en/signup](https://www.ibm.com/account/reg/us-en/signup)**
+1. Go to **<a href="https://www.ibm.com/account/reg/us-en/signup" target="_blank" rel="noopener noreferrer">ibm.com/account/reg/us-en/signup</a>**
 
    ![IBMid registration form](prereq-setup-images/s1-ibmid-registration-form.png)
 
@@ -68,7 +68,7 @@ Because Bob sign-in will not work with a corporate IBMid from inside the VM, you
 
 4. Check your **personal email inbox** for a **verification email from IBM** and click the **Verify** link to activate the account
 
-5. Return to **[ibm.com/account](https://www.ibm.com/account)** and sign in with your personal email to confirm the IBMid works. You will land on the IBM account page — you may see a message saying you have no accesses or no requests set up. **This is normal and expected**; your account is active and ready to use.
+5. Return to **<a href="https://www.ibm.com/account" target="_blank" rel="noopener noreferrer">ibm.com/account</a>** and sign in with your personal email to confirm the IBMid works. You will land on the IBM account page — you may see a message saying you have no accesses or no requests set up. **This is normal and expected**; your account is active and ready to use.
 
 ---
 
@@ -78,7 +78,7 @@ Because Bob sign-in will not work with a corporate IBMid from inside the VM, you
 
 Once your personal IBMid is confirmed:
 
-1. Email **[melissa.hadley@ibm.com](mailto:melissa.hadley@ibm.com)** with the subject line **"Bob personal IBMid — [Your Name]"**
+1. Email **<a href="mailto:melissa.hadley@ibm.com" target="_blank" rel="noopener noreferrer">melissa.hadley@ibm.com</a>** with the subject line **"Bob personal IBMid — [Your Name]"**
 2. In the body, include your **personal email address** (the one you just registered or verified)
 3. Wait for a confirmation reply that your license has been set up before attending the event
 
@@ -102,7 +102,7 @@ your TechZone account under **My TechZone → My Requests**.
 
 ### 2a — Sign in to TechZone
 
-1. Go to **[techzone.ibm.com](https://techzone.ibm.com)**
+1. Go to **<a href="https://techzone.ibm.com" target="_blank" rel="noopener noreferrer">techzone.ibm.com</a>**
 
 2. Click **Sign in** in the top-right corner
 
