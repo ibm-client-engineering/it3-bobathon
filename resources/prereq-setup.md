@@ -264,19 +264,14 @@ using the built-in Source Control view — no terminal needed.
 
    Press **Enter**
 
-4. A folder picker opens asking where on the VM disk to save the cloned repository. You can select any location on disk (such as `Documents` or your home directory), or optionally create a dedicated folder:
-   - Navigate to **Documents** (or your preferred location)
-   - Click **New Folder** (for example, named `boblabs` or similar) and select it
-   - Click **Select as Repository Destination**
-
-   > 💡 Creating a named folder like `boblabs` keeps your lab files clean and easy to find on the VM disk.
+4. A folder picker opens asking where on the VM disk to save the cloned repository. Navigate to your **Home** or **Documents** folder and click **Select as Repository Destination** — Bob will automatically create a folder for the cloned repository there.
 
 5. Bob will clone the repository. When it finishes, a prompt appears asking
    **"Would you like to open the cloned repository?"** — click **Open**
 
    > 💡 **What does "Open in Bob" mean?** This is Bob's way of asking whether to load the cloned folder into its workspace so it can read and work with the files. Click **Open** — you should then see the lab folder (`it3-bobathon`) appear in the Explorer panel on the left side of the Bob window.
 
-6. Bob may display a permission prompt asking if it can access files in this folder — click **Allow** (or **Yes**) to continue. This is expected and required for Bob to read the lab files.
+6. A purple ribbon message will appear at the top of the Bob window reading **"Restricted Mode is intended for safe code browsing. Trust this folder to enable all features"** with a **Manage** link next to it. Click **Manage** — this opens a **"You are in Restricted Mode"** modal. Click the **Trust** button, then close the modal window. This is required for Bob to read and work with the lab files.
 
 7. You may see a dialog asking **"Do you trust the authors of the files in this folder?"** — click **Yes, I trust the authors**. Without this, Bob cannot read or work with the lab files.
 
