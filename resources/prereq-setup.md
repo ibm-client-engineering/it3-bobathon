@@ -1,10 +1,19 @@
 # Pre-Event Setup Guide — WIT IT^3 Conference: IBM Workshop — Bob-a-thon
 
+---
+### 🚨 IMPORTANT — Read Before You Start
+
+> **⏰ Deadline: All setup must be completed by end of day September 23** — the day before the event. Do not leave this until the morning of September 24; there will be no time to troubleshoot on the day.
+
+> **🏢 This event is in-person only.** There is no remote or virtual attendance option. You must be physically present to participate.
+
+---
+
 > **Complete these steps before arriving on September 24.**
 > The entire setup takes about 10–15 minutes. If you run into trouble, join an
-> **office hours session on September 21 or September 22** and an IBM facilitator will help you.
+> **office hours session on September 21, September 22, or September 23** and an IBM facilitator will help you.
 
-> 📅 **Come to office hours on September 21 or September 22.** If anything in these steps doesn't work for you, don't wait until the day of the event. Office hours are specifically there to fix setup problems before the workshop — it's much easier to resolve issues before September 24 than on the morning of.
+> 📅 **Come to office hours on September 21, September 22, or September 23.** If anything in these steps doesn't work for you, don't wait until the day of the event. Office hours are specifically there to fix setup problems before the workshop — it's much easier to resolve issues before September 24 than on the morning of.
 
 ---
 
@@ -29,11 +38,11 @@ This workshop uses two IBM services that require IBMid sign-in. For most partici
 
 IBM assigned your lab VM to the same email address you used when you registered for the event. This step confirms that IBMid account exists.
 
-1. Go to **<a href="https://www.ibm.com/account" target="_blank" rel="noopener noreferrer">ibm.com/account</a>**
+1. Go to **[ibm.com/account](https://www.ibm.com/account)** *(open in new tab)*
 2. Click **Log in**
 3. Enter the **email address you registered for the event with** and click **Continue**
 4. If the sign-in succeeds, you will land on the IBM account page. You may see a message saying you have no accesses or no requests set up — **this is normal and expected**. Your IBMid is confirmed — **proceed to Step 1b**
-5. If you see "No account found", register at **<a href="https://www.ibm.com/account/reg/us-en/signup" target="_blank" rel="noopener noreferrer">ibm.com/account/reg/us-en/signup</a>** using that same registration email address, then verify and confirm sign-in works
+5. If you see "No account found", register at **[ibm.com/account/reg/us-en/signup](https://www.ibm.com/account/reg/us-en/signup)** *(open in new tab)* using that same registration email address, then verify and confirm sign-in works
 
 > 💡 IBM assigned your lab VM to the email address you registered for the event with. A mismatch will prevent you from seeing your VM in TechZone.
 
@@ -43,19 +52,23 @@ IBM assigned your lab VM to the same email address you used when you registered 
 
 Because Bob sign-in will not work with a corporate IBMid from inside the VM, you must have an IBMid registered to a **personal email address** (Gmail, Outlook.com, Yahoo, iCloud, etc.).
 
+> ⚠️ **Work SSO auto-login heads-up:** If your browser is already signed in to an IBM site using your corporate/work email via SSO, IBM will log you straight back in with your work account — skipping the email prompt entirely. Before starting this step, check the top-right corner of the IBM page for a small **person icon**. If you see your name or a profile picture there, click it and select **Sign out** first. Then proceed with the steps below using your personal email address.
+
 **Check whether you already have a personal IBMid:**
 
-1. Go to **<a href="https://www.ibm.com/account" target="_blank" rel="noopener noreferrer">ibm.com/account</a>**
+1. Go to **[ibm.com/account](https://www.ibm.com/account)** *(open in new tab)*
 2. Click **Log in**
 3. Enter your **personal email address** and click **Continue**
-4. If sign-in succeeds — you will land on the IBM account page. You may see a message saying you have no accesses or no requests set up — **this is normal and expected**. Proceed to **"Send your personal IBMid to the event team"** below
+4. If sign-in succeeds — you will land on the IBM account page. Proceed to **"Send your personal IBMid to the event team"** below
 5. If you see "No account found", continue to **"Create a new personal IBMid"** below
+
+> ✅ **"You have no accesses" or "no requests set up"? That's correct.** A brand-new personal IBMid has nothing attached to it yet — this message does **not** mean something went wrong. Your account is confirmed and active. Move on to the next step.
 
 ---
 
 #### Create a new personal IBMid
 
-1. Go to **<a href="https://www.ibm.com/account/reg/us-en/signup" target="_blank" rel="noopener noreferrer">ibm.com/account/reg/us-en/signup</a>**
+1. Go to **[ibm.com/account/reg/us-en/signup](https://www.ibm.com/account/reg/us-en/signup)** *(open in new tab)*
 
    ![IBMid registration form](prereq-setup-images/s1-ibmid-registration-form.png)
 
@@ -68,7 +81,9 @@ Because Bob sign-in will not work with a corporate IBMid from inside the VM, you
 
 4. Check your **personal email inbox** for a **verification email from IBM** and click the **Verify** link to activate the account
 
-5. Return to **<a href="https://www.ibm.com/account" target="_blank" rel="noopener noreferrer">ibm.com/account</a>** and sign in with your personal email to confirm the IBMid works. You will land on the IBM account page — you may see a message saying you have no accesses or no requests set up. **This is normal and expected**; your account is active and ready to use.
+5. Return to **[ibm.com/account](https://www.ibm.com/account)** *(open in new tab)* and sign in with your personal email to confirm the IBMid works. You will land on the IBM account page.
+
+   > ✅ **"You have no accesses" or "no requests set up"? That's correct.** A brand-new personal IBMid has nothing attached to it yet — this message does **not** mean something went wrong. Your account is active and ready to use.
 
 ---
 
@@ -78,7 +93,7 @@ Because Bob sign-in will not work with a corporate IBMid from inside the VM, you
 
 Once your personal IBMid is confirmed:
 
-1. Email **<a href="mailto:melissa.hadley@ibm.com" target="_blank" rel="noopener noreferrer">melissa.hadley@ibm.com</a>** with the subject line **"Bob personal IBMid — [Your Name]"**
+1. Email **[melissa.hadley@ibm.com](mailto:melissa.hadley@ibm.com)** *(open in new tab)* with the subject line **"Bob personal IBMid — [Your Name]"**
 2. In the body, include your **personal email address** (the one you just registered or verified)
 3. Wait for a confirmation reply that your license has been set up before attending the event
 
@@ -102,7 +117,7 @@ your TechZone account under **My TechZone → My Requests**.
 
 ### 2a — Sign in to TechZone
 
-1. Go to **<a href="https://techzone.ibm.com" target="_blank" rel="noopener noreferrer">techzone.ibm.com</a>**
+1. Go to **[techzone.ibm.com](https://techzone.ibm.com)** *(open in new tab)*
 
 2. Click **Sign in** in the top-right corner
 
