@@ -4,6 +4,22 @@
 **Difficulty:** Beginner
 **Prerequisites:** Bob installed and running
 
+---
+
+## 🧑‍💼 Meet Marcus — Your Persona for This Lab
+
+**Marcus** is a project manager at a consulting firm. He runs three workstreams, attends six meetings a week, and owns more follow-up actions than anyone is tracking properly. Every Monday he spends 20–30 minutes rebuilding his task list from a mix of meeting notes, email threads, and things he remembers while making coffee.
+
+Today he has a vendor follow-up sitting unanswered in his inbox, a project status update to send his manager, and a task list that hasn't been touched since last Wednesday.
+
+**In this lab, you are Marcus.** Each exercise solves one of his problems:
+
+- **Exercise 1** → Stop rebuilding your task list from scratch — have Bob track and update it conversationally
+- **Exercise 2** → Extract every action item from a meeting transcript and email thread in seconds, not 15 minutes
+- **Exercise 3** → Draft a follow-up email that sounds like you wrote it, not a chatbot
+
+---
+
 ## 🎯 Objectives
 
 By the end of this lab, you will be able to:

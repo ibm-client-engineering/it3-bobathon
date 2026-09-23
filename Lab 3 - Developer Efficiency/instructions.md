@@ -9,6 +9,25 @@
 
 ---
 
+## 🧑‍💼 Meet Priya — Your Persona for This Lab
+
+**Priya** is a data engineer at a financial services company. She's been handed a Python data pipeline she didn't write — her team owns it now, there's a bug in production, and a new feature request is already queued up.
+
+She doesn't know the codebase. She has no handover notes. The previous engineer is gone.
+
+Without Bob: 30–60 minutes reading files to even understand what the pipeline does, then more time Googling the bug, then writing the fix, then manually authoring tests she barely has time for, then drafting docs nobody will read.
+
+**In this lab, you are Priya.** Each checkpoint solves a real problem she's facing:
+
+- **Checkpoint 1** → Get oriented in an unfamiliar codebase in minutes, not an hour
+- **Checkpoint 2** → Read and understand non-trivial code without tracing it manually
+- **Checkpoint 3** → Scan for TODOs, patterns, and a security issue you'd otherwise miss in code review
+- **Checkpoint 4** → Diagnose and fix a real bug without switching between editor, terminal, and Google
+- **Checkpoint 5** → Implement and test a new feature with Bob as your pair programmer
+- **Checkpoints 6–7** → Surface ML code quality issues and build something new from scratch
+
+---
+
 ## 🎯 Objectives
 
 Work through a realistic Python data engineering codebase (`data-pipeline`) using Bob as your AI coding partner. Each checkpoint builds on the last. You don't need to finish all seven — work at your own pace. Checkpoints 6 and 7 are intentionally open-ended stretch goals.

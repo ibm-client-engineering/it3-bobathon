@@ -4,6 +4,22 @@
 **Difficulty:** Beginner–Intermediate
 **Prerequisites:** Completed Lab 1
 
+---
+
+## 🧑‍💼 Meet Jordan — Your Persona for This Lab
+
+**Jordan** is an Operations Manager at a financial services firm. Her VP just pulled her into a steering committee meeting — two days from now — to present a vendor recommendation for a new document management system. She wasn't involved in the shortlisting. She has three vendor documents, a research brief, and no free time.
+
+Without Bob: 60–90 minutes reading and taking notes, another hour cross-referencing three vendors on security, M365 integration, and cost, then 45–90 minutes writing a recommendation from scratch. Half a day she doesn't have.
+
+**In this lab, you are Jordan.** Each exercise solves one of her problems:
+
+- **Exercise 1** → Get oriented in an unfamiliar document in minutes, not an hour
+- **Exercise 2** → Cross-reference all three vendors at once and surface contradictions you'd otherwise miss
+- **Exercise 3** → Turn the research into a steering committee deliverable, ready to send
+
+---
+
 ## 🎯 Objectives
 
 By the end of this lab, you will be able to:
@@ -83,13 +99,28 @@ Getting up to speed on a new topic typically means reading 10–30 pages before 
 
 **Scenario:** You need to answer a specific business or technical question, but the answer is spread across several documents. Instead of reading each one and cross-referencing manually, have Bob do the synthesis.
 
-> **Use your own content (optional):** Swap in any set of real documents, reports, or reference pages that you'd normally cross-reference manually to answer a question.
+> **Want to use your own content?** You can replace the sample files with your own documents — internal reports, policy pages, vendor briefs, anything you'd normally cross-reference manually. To do so:
+> 1. In the Explorer panel, open `Lab 2 - Research/sample-data/`
+> 2. Right-click the folder and select **New File** — name it `source-a.md`, `source-b.md`, etc. (or any name you like)
+> 3. Paste your content in and save (`Cmd+S` / `Ctrl+S`)
+> 4. Update the filenames in the Step 1 prompt below to match what you saved
+>
+> You can also skip the files entirely and paste content directly into the Bob chat — just tell Bob what each pasted block is before asking your question.
 
-**Step 1:** In the Bob chat panel, give Bob the research question and all three sources at once:
+**Before you start — review the source documents:**
+Open `sample-data/research-brief.md` and skim `source-a.md`, `source-b.md`, and `source-c.md`. You don't need to read them end-to-end — just enough to form a question you actually want answered. The research brief tells you the context; the source files tell you what's in play.
+
+**Sample questions to get you started** (or bring your own based on what you noticed):
+- *Which vendor best meets the compliance requirements, and where are the gaps?*
+- *Which vendor would be easiest for end users to adopt?*
+- *Which vendor has the weakest Microsoft 365 integration story?*
+- *Is there enough information across these three sources to make a confident recommendation, or is something missing?*
+
+**Step 1:** In the Bob chat panel, give Bob the research question and all three sources at once. Swap in your chosen question where indicated:
 ```
 Read sample-data/research-brief.md to understand the question I'm trying to answer.
-Then read source-a.md, source-b.md, and source-c.md and answer the question using
-all three sources.
+Then read source-a.md, source-b.md, and source-c.md and answer this question using
+all three sources: [your question here — e.g. "Which vendor best meets the compliance requirements, and where are the gaps?"]
 ```
 
 **Step 2:** Ask Bob to surface agreements, contradictions, and gaps:
