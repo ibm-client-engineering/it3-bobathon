@@ -281,6 +281,8 @@ using the built-in Source Control view — no terminal needed.
 
 9. Confirm the files loaded: in the Explorer panel on the left, you should see folders named `Lab 1 - Productivity`, `Lab 2 - Research`, `Lab 3 - Developer Efficiency`, and a `README.md` file at the top level. If you don't see these, ask your IBM facilitator.
 
+   > 💡 **Don't see the Bob chat panel?** If the chat panel on the right side of the Bob window has disappeared, click the **Bob icon** in the top-right corner of the Bob toolbar (it looks like a small robot/chat bubble) to bring it back. Alternatively, open the **View** menu at the top of the window, select **IBM Bob**, and the chat panel will reappear.
+
 > ✅ **Setup complete — stop here.** Bob is open, authenticated, and the lab files are
 > loaded. **Do not send any prompts yet.** Every message to Bob uses Bobcoins, and you want
 > to save them for the workshop labs. Leave Bob open until the event starts.
